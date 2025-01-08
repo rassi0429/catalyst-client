@@ -1,0 +1,3489 @@
+{
+  "VersionNumber": "2024.10.29.1229",
+  "FeatureFlags": {
+    "ColorManagement": 0,
+    "ResetGUID": 0,
+    "ProtoFlux": 0,
+    "TEXTURE_QUALITY": 0,
+    "TypeManagement": 0
+  },
+  "Types": [
+    "[FrooxEngine]FrooxEngine.DynamicVariableSpace",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.Slot>",
+    "[FrooxEngine]FrooxEngine.UIX.Image",
+    "[FrooxEngine]FrooxEngine.UIX.RectTransform",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>",
+    "[FrooxEngine]FrooxEngine.DynamicField<string>",
+    "[FrooxEngine]FrooxEngine.DynamicField<colorX>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.NineSliceSizing>",
+    "[FrooxEngine]FrooxEngine.DynamicField<bool>",
+    "[FrooxEngine]FrooxEngine.FontChain",
+    "[FrooxEngine]FrooxEngine.StaticFont",
+    "[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial",
+    "[FrooxEngine]FrooxEngine.PBS_Metallic",
+    "[FrooxEngine]FrooxEngine.SpriteProvider",
+    "[FrooxEngine]FrooxEngine.StaticTexture2D",
+    "[FrooxEngine]FrooxEngine.UI_UnlitMaterial"
+  ],
+  "TypeVersions": {
+    "[FrooxEngine]FrooxEngine.UIX.Image": 1,
+    "[FrooxEngine]FrooxEngine.UIX.RectTransform": 1,
+    "[FrooxEngine]FrooxEngine.UI_UnlitMaterial": 2
+  },
+  "Object": {
+    "ID": "bdb3a44b-0b6d-4459-bb48-ecc7d41373f4",
+    "Persistent-ID": "93184942-0174-488a-95c2-6ed0ff138b5e",
+    "Name": {
+      "ID": "73f0d0eb-8965-4fd9-abce-dc734f38ed65",
+      "Data": "StyledUix/StyledImage"
+    },
+    "Tag": {
+      "ID": "98bbcbcc-8ac3-4cc1-b00e-62f7f2118fb2",
+      "Data": null
+    },
+    "Active": {
+      "ID": "6ecc9494-8759-49e7-8025-b601ccb4aec7",
+      "Data": true
+    },
+    "Position": {
+      "ID": "a2658946-6291-42e2-b5bc-589c63c221d9",
+      "Data": [0, 0, 0]
+    },
+    "Rotation": {
+      "ID": "d0997814-d7b8-4e6d-b179-6769c8d37914",
+      "Data": [0, 0, 0, 1]
+    },
+    "Scale": {
+      "ID": "bc388031-94fb-41d1-a618-8ee5ff0193ff",
+      "Data": [1, 1, 1]
+    },
+    "OrderOffset": {
+      "ID": "7ced77a4-9aec-4411-99a8-c4edc3f8811d",
+      "Data": 0
+    },
+    "ParentReference": "fcaab475-91af-4bab-b50a-71339f80756f",
+    "Components": {
+      "ID": "52f1000f-aa1f-4ff0-9ae2-176fd671119d",
+      "Data": [
+        {
+          "Type": 0,
+          "Data": {
+            "ID": "0d1525de-c3ea-40aa-a9aa-e8f334727cf3",
+            "persistent-ID": "14aa98a2-d3a3-44c9-8554-9e78840d1ffd",
+            "UpdateOrder": {
+              "ID": "bf69f59d-9814-4c3b-b6f5-a1735ccae0f9",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "40c34ba9-b857-4edb-8c95-1a9735fd0fc9",
+              "Data": true
+            },
+            "SpaceName": {
+              "ID": "357e74d0-1641-4cf5-8a32-bbe4abf87d79",
+              "Data": null
+            },
+            "OnlyDirectBinding": {
+              "ID": "0e55e951-fa46-44ca-9ca4-7ba09423b8e1",
+              "Data": false
+            }
+          }
+        }
+      ]
+    },
+    "Children": [
+      {
+        "ID": "7c58ac69-dd64-4faa-afd5-2f57863e117f",
+        "Persistent-ID": "8138d9ee-9058-4ff5-adb9-f478fd6ac101",
+        "Name": {
+          "ID": "d9fb0cef-0cd2-4db9-a38e-cbe95281ac2b",
+          "Data": "DV"
+        },
+        "Tag": {
+          "ID": "e76a733d-8bc3-4eee-b25a-973ce3e0c0af",
+          "Data": null
+        },
+        "Active": {
+          "ID": "1f293096-cf14-4420-82b2-2a37ccedc647",
+          "Data": true
+        },
+        "Position": {
+          "ID": "6cba3548-8cbb-41ee-a093-ad152d3978c1",
+          "Data": [0, 0, 0]
+        },
+        "Rotation": {
+          "ID": "33a51d69-f791-4612-a8df-acfe26c877cf",
+          "Data": [0, 0, 0, 1]
+        },
+        "Scale": {
+          "ID": "231b6f22-4d9a-4d3a-88ad-12c5a0a38aaa",
+          "Data": [1, 1, 1]
+        },
+        "OrderOffset": {
+          "ID": "f537a215-bb49-44f8-a4b2-4377815361e8",
+          "Data": 0
+        },
+        "ParentReference": "bdb3a44b-0b6d-4459-bb48-ecc7d41373f4",
+        "Components": {
+          "ID": "bf369b86-ef73-4ff3-9109-508626f3dd2e",
+          "Data": [
+            {
+              "Type": 1,
+              "Data": {
+                "ID": "f0483892-3b0a-417e-b0b6-8d6b96bf0d7d",
+                "persistent-ID": "0429245c-a886-4703-9916-b0478b241ee2",
+                "UpdateOrder": {
+                  "ID": "4795be51-3a1a-4c26-9c5f-24f01018f38f",
+                  "Data": 0
+                },
+                "Enabled": {
+                  "ID": "e17438b5-8477-4607-a42f-b83aee3d8725",
+                  "Data": true
+                },
+                "VariableName": {
+                  "ID": "0e3bcdb9-3f11-4284-8605-ddfcc9b26a32",
+                  "Data": "Static.Ref"
+                },
+                "Reference": {
+                  "ID": "fa1bf1b9-7c32-4708-80d9-486e4bb139a1",
+                  "Data": "2c7c0fc0-bb48-4413-99c4-c6d8a7e26f37"
+                },
+                "OverrideOnLink": {
+                  "ID": "5f818ad4-5869-405f-b996-78145532dc9d",
+                  "Data": false
+                }
+              }
+            }
+          ]
+        },
+        "Children": []
+      },
+      {
+        "ID": "2c7c0fc0-bb48-4413-99c4-c6d8a7e26f37",
+        "Persistent-ID": "38439ad4-0b6a-4e87-a300-7749210179ef",
+        "Name": {
+          "ID": "ef7e4632-e179-4cc8-a1a7-dd4482044e35",
+          "Data": "Ref"
+        },
+        "Tag": {
+          "ID": "e9bdab05-0b3e-4ee9-94d1-b2a12997d4f4",
+          "Data": null
+        },
+        "Active": {
+          "ID": "3344b2e0-0b73-415b-b25b-988df5739016",
+          "Data": true
+        },
+        "Position": {
+          "ID": "6f9a549f-f71d-4703-a43c-d6a2942aee36",
+          "Data": [0, 0, 0]
+        },
+        "Rotation": {
+          "ID": "d28b2ef1-7e20-4dfb-bfd9-ac3c698b77e3",
+          "Data": [0, 0, 0, 1]
+        },
+        "Scale": {
+          "ID": "7aaaabd5-3c06-4129-8f84-4e49f0bf2fc2",
+          "Data": [1, 1, 1]
+        },
+        "OrderOffset": {
+          "ID": "86c4f792-895a-4d05-959e-eaa3f63c3c93",
+          "Data": 0
+        },
+        "ParentReference": "bdb3a44b-0b6d-4459-bb48-ecc7d41373f4",
+        "Components": {
+          "ID": "2b244b2d-7aee-4191-8f7c-3d8c1b4c8840",
+          "Data": [
+            {
+              "Type": 0,
+              "Data": {
+                "ID": "20d012da-f1df-45eb-a9b7-84c94ae90805",
+                "persistent-ID": "8577df55-5075-4d98-bc26-e02dfa275ee2",
+                "UpdateOrder": {
+                  "ID": "1a811642-cd65-4596-a808-b96de7c7ca59",
+                  "Data": 0
+                },
+                "Enabled": {
+                  "ID": "9096afb2-1da7-4f31-b087-fc57e5d02ab7",
+                  "Data": true
+                },
+                "SpaceName": {
+                  "ID": "36e2beed-d2ad-40c2-87b9-10af79bd60b1",
+                  "Data": null
+                },
+                "OnlyDirectBinding": {
+                  "ID": "b762f280-fedc-4662-8f76-77ac7ea668fa",
+                  "Data": false
+                }
+              }
+            }
+          ]
+        },
+        "Children": [
+          {
+            "ID": "4b07a6cc-a51e-4d65-b818-152c0221623b",
+            "Persistent-ID": "0aa4abee-5b14-4460-8053-a7573f87647a",
+            "Name": {
+              "ID": "323d7924-3569-4acd-903d-46305e296523",
+              "Data": "StyledImage"
+            },
+            "Tag": {
+              "ID": "a7c96731-3e3b-4bd7-a90e-965d2b3aeb56",
+              "Data": null
+            },
+            "Active": {
+              "ID": "b38f0d47-eeaa-4812-a432-a7aa0430c9f4",
+              "Data": true
+            },
+            "Position": {
+              "ID": "8c5b120a-50b2-49db-bef4-ca122314baf8",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "5431c81d-e02c-4b41-999a-6fe6d4ee4d9b",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "92d577e1-1a6b-4e13-8b62-e125079338ae",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "78fe1f04-c47e-46cf-a434-414205a993bf",
+              "Data": 0
+            },
+            "ParentReference": "2c7c0fc0-bb48-4413-99c4-c6d8a7e26f37",
+            "Components": {
+              "ID": "6970cf03-b119-44b8-a381-f69640d25f8f",
+              "Data": [
+                {
+                  "Type": 2,
+                  "Data": {
+                    "ID": "b53dc21b-060b-4129-8d31-e50441199816",
+                    "persistent-ID": "1ddc174c-d3d7-4b33-9037-f9e9237a7292",
+                    "UpdateOrder": {
+                      "ID": "6c5a76a0-4623-435c-95e3-39ae3594d859",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "23b8c499-7d2c-44e3-b59e-326ca515cfa3",
+                      "Data": true
+                    },
+                    "Sprite": {
+                      "ID": "182063a1-b370-45f9-b993-1dbc3ab9c3f3",
+                      "Data": null
+                    },
+                    "Material": {
+                      "ID": "5efb4783-5f23-4016-9a3c-bf9ee3994ee4",
+                      "Data": null
+                    },
+                    "PreserveAspect": {
+                      "ID": "3db6e6c7-afb0-402c-8219-7b165bd3aacc",
+                      "Data": true
+                    },
+                    "NineSliceSizing": {
+                      "ID": "e36beda7-6bef-43cd-8aa0-e15d8f9d3159",
+                      "Data": "TextureSize"
+                    },
+                    "FlipHorizontally": {
+                      "ID": "b778c771-8d94-4182-afdb-596cb98583c8",
+                      "Data": false
+                    },
+                    "FlipVertically": {
+                      "ID": "4269b526-6c17-42dc-aed2-c118cbf1163a",
+                      "Data": false
+                    },
+                    "InteractionTarget": {
+                      "ID": "2f2a36f9-1858-44cc-a8e0-424f5f7fb94d",
+                      "Data": true
+                    },
+                    "FillRect": {
+                      "ID": "be74782a-b40b-4283-8111-eba3bfff9c6f",
+                      "Data": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 1,
+                        "Height": 1
+                      }
+                    },
+                    "Tint": {
+                      "ID": "416aa3c7-88cd-4c85-8971-7f6bcf135ac0",
+                      "Data": [1, 1, 1, 1, "sRGB"]
+                    },
+                    "__legacyZWrite-ID": "000049f2-0000-0000-0000-000000000000"
+                  }
+                },
+                {
+                  "Type": 3,
+                  "Data": {
+                    "ID": "5812592a-0aa0-482d-aa4f-ef06d9e94844",
+                    "persistent-ID": "55868f56-f946-4bf1-b911-cf5d99663537",
+                    "UpdateOrder": {
+                      "ID": "41071509-781e-4508-83f3-d2c936032457",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "a3e96368-363f-406e-a976-b13fc000c0a9",
+                      "Data": true
+                    },
+                    "AnchorMin": {
+                      "ID": "487af2b1-e85a-423d-8cd1-34811a69f15f",
+                      "Data": [0, 0]
+                    },
+                    "AnchorMax": {
+                      "ID": "daadad4d-09b7-4179-89ae-7170d2fdd94e",
+                      "Data": [1, 1]
+                    },
+                    "OffsetMin": {
+                      "ID": "267a23a8-a447-4229-b821-c38c1bbb5046",
+                      "Data": [0, 0]
+                    },
+                    "OffsetMax": {
+                      "ID": "3f9f2153-401e-4cde-a0a0-3269f14161a3",
+                      "Data": [0, 0]
+                    },
+                    "Pivot": {
+                      "ID": "79674449-75bd-4900-bfad-3adec63c5336",
+                      "Data": [0.5, 0.5]
+                    }
+                  }
+                },
+                {
+                  "Type": 4,
+                  "Data": {
+                    "ID": "0dad7cc3-3c74-4750-9068-6c043172b6b9",
+                    "persistent-ID": "485d26cc-413f-4ba6-9e84-9457992cfac9",
+                    "UpdateOrder": {
+                      "ID": "68e417a5-f263-4323-b02a-d4b369a5ce50",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "aeb05328-f997-4225-9b6e-5e86e3034c3e",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "f359b2bf-b776-4ab2-9d00-b60575eb715a",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "e0d3dc7f-8c8f-4b16-9b57-998e705cacc6",
+                      "Data": "416aa3c7-88cd-4c85-8971-7f6bcf135ac0"
+                    },
+                    "DefaultValue": {
+                      "ID": "dc6d447b-26d9-4b25-a1a8-91e6b0b49748",
+                      "Data": [1, 1, 1, 1, "sRGB"]
+                    }
+                  }
+                },
+                {
+                  "Type": 5,
+                  "Data": {
+                    "ID": "ea62ff94-7928-4f4d-a735-23f88c706e0a",
+                    "persistent-ID": "b135d932-ce82-416c-837b-fcac9bda1be1",
+                    "UpdateOrder": {
+                      "ID": "289caaa2-b8c8-4829-b1ff-18c886caa2b3",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "d5099aec-c7b4-45be-b46d-fa0ebac2b676",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "6853b6c3-2ec5-4a7d-a01c-62cee3491733",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "bef6f8a3-0724-4074-b124-f27559c84ace",
+                      "Data": "182063a1-b370-45f9-b993-1dbc3ab9c3f3"
+                    },
+                    "DefaultTarget": {
+                      "ID": "5d34f8b3-1152-4adf-a1e6-8b6c139f675e",
+                      "Data": null
+                    }
+                  }
+                },
+                {
+                  "Type": 6,
+                  "Data": {
+                    "ID": "440d9b73-6025-4603-9b5d-6fc3d03621a3",
+                    "persistent-ID": "8ea0ac3d-f1c6-4516-b5a5-b3f677b90610",
+                    "UpdateOrder": {
+                      "ID": "56b44b49-504d-44a4-b15b-4d6803629c2d",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "0755f3a1-0678-4c0d-9d83-589cd3766fc7",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "74cb44f7-1e3e-4b2c-9dfe-d081ff6d3cbd",
+                      "Data": ""
+                    },
+                    "Target": {
+                      "ID": "4fb56ec3-6d8c-4163-a61a-f3cce442712b",
+                      "Data": "5efb4783-5f23-4016-9a3c-bf9ee3994ee4"
+                    },
+                    "DefaultTarget": {
+                      "ID": "226dde41-8c75-419c-b989-cb41ad7a14cc",
+                      "Data": null
+                    }
+                  }
+                }
+              ]
+            },
+            "Children": []
+          },
+          {
+            "ID": "86134c27-1fd0-48fc-9556-85814eed019a",
+            "Persistent-ID": "72b92635-1211-4027-8c8d-ca12eb368d10",
+            "Name": {
+              "ID": "c7a2ae76-c302-4723-9208-dd392faa1c6c",
+              "Data": "DV/Static"
+            },
+            "Tag": {
+              "ID": "625ce537-3bea-404b-aff7-fb88acb00a54",
+              "Data": null
+            },
+            "Active": {
+              "ID": "ca31a6d2-4f37-4f22-9de0-30918aa2687d",
+              "Data": true
+            },
+            "Position": {
+              "ID": "2f8cc932-ec17-477c-b455-d313fa7f1245",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "ed8b5b94-6397-42d0-8db0-e0c04a384903",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "d685271f-c0e9-437d-9e23-3a34a562151f",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "561ce574-b0d2-4d57-9c1b-5bd50680a54b",
+              "Data": 0
+            },
+            "ParentReference": "2c7c0fc0-bb48-4413-99c4-c6d8a7e26f37",
+            "Components": {
+              "ID": "ce5e5e09-1976-4414-852e-9edec261361b",
+              "Data": [
+                {
+                  "Type": 1,
+                  "Data": {
+                    "ID": "59758280-8759-4fe7-9117-f603c537a97d",
+                    "persistent-ID": "53ec7c46-8a13-45ca-8c09-5494fc22f201",
+                    "UpdateOrder": {
+                      "ID": "47cf3ad6-ecec-43ad-bf4c-251a551a97af",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "e127078a-a654-41ae-b4b0-810c11836eba",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "8c7239cd-3164-4207-ae27-00fd64d71387",
+                      "Data": "Static.Root"
+                    },
+                    "Reference": {
+                      "ID": "7a54e90c-47c7-430c-a428-d4c7170b2a57",
+                      "Data": "2c7c0fc0-bb48-4413-99c4-c6d8a7e26f37"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "58ca7acb-107a-4017-b3ae-cc1c5f3a6344",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 1,
+                  "Data": {
+                    "ID": "cdc99a7f-a9a8-4b18-86eb-37035bc10dd9",
+                    "persistent-ID": "cbfc5fec-c558-4cc9-ba11-de64590f77b1",
+                    "UpdateOrder": {
+                      "ID": "98979c37-c3b3-4375-9e16-322371706fc4",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "3698944b-4831-4d7e-b939-7eb5b37ddadd",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "5b1ed620-0d2f-4178-8f9f-24b03546eca3",
+                      "Data": "Static.Main"
+                    },
+                    "Reference": {
+                      "ID": "1a1e51d3-71fb-4a0a-9a8b-4ccaa39e9712",
+                      "Data": "4b07a6cc-a51e-4d65-b818-152c0221623b"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "e755d55d-56d2-4f09-924d-a2b79139e1a3",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 1,
+                  "Data": {
+                    "ID": "ff96433d-d4d7-4984-8dfe-a0b603636cfc",
+                    "persistent-ID": "b3ae5eee-6f5d-47ee-8b6d-b59bfad1e52a",
+                    "UpdateOrder": {
+                      "ID": "e337224d-1ae2-4810-b25a-98c49ab5a762",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "73a2ab66-a8d3-411e-988c-428c973c7b47",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "d405a6e0-a2cb-4588-a2b3-a629aeaa12f2",
+                      "Data": "Static.ChildrenParent"
+                    },
+                    "Reference": {
+                      "ID": "6b8646ae-1d2e-4682-bd9a-254c94a7ddc7",
+                      "Data": "4b07a6cc-a51e-4d65-b818-152c0221623b"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "35f615e0-c8ff-4743-b435-468f89f36924",
+                      "Data": false
+                    }
+                  }
+                }
+              ]
+            },
+            "Children": []
+          },
+          {
+            "ID": "e0dd698d-8f1c-42a1-b5f1-c478bd441dbc",
+            "Persistent-ID": "55f58bc0-9533-494d-9559-81366f3439b2",
+            "Name": {
+              "ID": "e32bc5ea-f2c7-4840-afc7-d30f5595bc7c",
+              "Data": "DV/Props"
+            },
+            "Tag": {
+              "ID": "497f4cc4-db02-43b0-bba1-058886c6523a",
+              "Data": null
+            },
+            "Active": {
+              "ID": "9c143e55-a931-4008-9d33-567132f1734e",
+              "Data": true
+            },
+            "Position": {
+              "ID": "dd4467b6-ffe8-46de-ab5e-28d6c83f3176",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "60552709-3b8d-4e11-9aea-b8b7932f81d6",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "16073487-2267-452f-86e1-6b22ec065efd",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "9d24c6b0-97b8-4949-a4df-a8d214512eb0",
+              "Data": 0
+            },
+            "ParentReference": "2c7c0fc0-bb48-4413-99c4-c6d8a7e26f37",
+            "Components": {
+              "ID": "77e82307-7e15-4ee5-9242-4f20764879ce",
+              "Data": [
+                {
+                  "Type": 7,
+                  "Data": {
+                    "ID": "e7f311d2-1741-4cf1-bdb5-19f13152be9d",
+                    "persistent-ID": "33dc70f4-e5ae-410d-9890-a23199f51e41",
+                    "UpdateOrder": {
+                      "ID": "3c9170e7-0315-49d0-bb41-a40526ff31ae",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "fede8f03-0162-44b3-af27-cd216c620ab6",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "4b0a0f0c-b675-41ad-8202-263e197f915d",
+                      "Data": "Props.styledSprite"
+                    },
+                    "TargetField": {
+                      "ID": "d0fe8ab6-a4e9-4c71-b08a-2306d95988aa",
+                      "Data": "6853b6c3-2ec5-4a7d-a01c-62cee3491733"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "a0f44477-b774-4b02-bf70-bfcc81e468eb",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 7,
+                  "Data": {
+                    "ID": "4b49d8d3-50c1-4b19-8e65-3ceb0d374406",
+                    "persistent-ID": "0c106b50-ed52-4cb2-a7a1-1a455c980b02",
+                    "UpdateOrder": {
+                      "ID": "fc24b001-6c93-4700-bd85-d735051649ba",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "b6e02c40-e956-476c-b4c0-bf79b9604fb6",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "17376e93-6c27-420f-95ad-3c177fb29fe7",
+                      "Data": "Props.styledColor"
+                    },
+                    "TargetField": {
+                      "ID": "569289e6-b9c1-42f7-89a1-75d66ee83c5c",
+                      "Data": "f359b2bf-b776-4ab2-9d00-b60575eb715a"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "b483ac40-8051-4767-8c2c-b414f5933d8d",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 7,
+                  "Data": {
+                    "ID": "c33fbb25-ff58-40f5-a98d-79916646c851",
+                    "persistent-ID": "c0ed2362-a8a8-443d-8da3-04e910b33c28",
+                    "UpdateOrder": {
+                      "ID": "0046484a-fc10-486f-bf8b-ff5747c7d8d8",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "e16d4cc4-d6ed-48a4-8062-e90094c99191",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "12d8b213-b6f5-44b6-9051-9a68c07009c5",
+                      "Data": "Props.styledMaterial"
+                    },
+                    "TargetField": {
+                      "ID": "448cdcad-14bd-41ec-9121-ed506883eccd",
+                      "Data": "74cb44f7-1e3e-4b2c-9dfe-d081ff6d3cbd"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "7848c175-d168-4072-8518-34507f583c9c",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 8,
+                  "Data": {
+                    "ID": "a953c5c7-897e-49e8-b3e6-b090cd1350a9",
+                    "persistent-ID": "3a83d377-ff8a-4a24-8359-fa6f9e656e48",
+                    "UpdateOrder": {
+                      "ID": "8bd2e0fa-a1c0-440f-9e6b-2c6375a0e3df",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "0ab1fc87-6120-4fd0-874b-76504741dcec",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "567a729a-01dd-42b4-8dfb-a6d3484e579c",
+                      "Data": "Props.defaultColor"
+                    },
+                    "TargetField": {
+                      "ID": "56b0d3d9-b79e-4757-82e0-fa178c5f9f90",
+                      "Data": "dc6d447b-26d9-4b25-a1a8-91e6b0b49748"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "d108a6d5-5e68-4a65-b46f-8935c2e176bc",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 9,
+                  "Data": {
+                    "ID": "0da623f1-64b3-45b0-841f-9a1e81008811",
+                    "persistent-ID": "671cef81-7f8e-42bf-9fe9-213e00688161",
+                    "UpdateOrder": {
+                      "ID": "c212a65b-f65c-476c-bc13-af3fd01b6344",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "3a26a07b-e7ff-4d45-b2f8-108ad9a85dc6",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "15467fdd-bd68-4295-9a16-74811b24563d",
+                      "Data": "Props.nineSliceSizing"
+                    },
+                    "TargetField": {
+                      "ID": "7c960e61-351a-4e31-a9e1-5dd0165eb9a7",
+                      "Data": "e36beda7-6bef-43cd-8aa0-e15d8f9d3159"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "8e987651-433d-445f-a504-e989e55da29a",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 10,
+                  "Data": {
+                    "ID": "09f12c1a-2fe9-4bb5-9cb8-b2d615583823",
+                    "persistent-ID": "09dd70b7-9a03-4784-9f73-96879ee074db",
+                    "UpdateOrder": {
+                      "ID": "c17d7cc9-3232-48d7-9ef5-4b87aecd11ec",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "367d377e-d5c7-4d18-ab7f-b8babb6a82f2",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "0bf2dd17-6f2f-4b43-bce4-a1e4387b01ce",
+                      "Data": "Props.preserveAspect"
+                    },
+                    "TargetField": {
+                      "ID": "a3adaf98-bd25-4ddc-818b-9e35ed7011ab",
+                      "Data": "3db6e6c7-afb0-402c-8219-7b165bd3aacc"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "68c16eeb-7d8d-42d1-96bb-a9f0abde347e",
+                      "Data": false
+                    }
+                  }
+                }
+              ]
+            },
+            "Children": []
+          }
+        ]
+      }
+    ]
+  },
+  "Assets": [
+    {
+      "Type": 11,
+      "Data": {
+        "ID": "7c345c68-3d5d-4fa5-8126-0b73ff611b83",
+        "persistent": {
+          "ID": "8501206c-5291-43ba-9363-eb0544d534ae",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "c0e35352-c2d5-437e-acb6-79511352a6e1",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "d2a1c09a-0041-475e-93aa-0f07561c6062",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "ab8de821-43a3-4fb3-9ff5-2711bc301217",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "9a17daad-f316-4f73-a486-d236762e1ca7",
+          "Data": "49f9ca32-7eb8-4d05-a3d5-7ccb3e301c3f"
+        },
+        "FallbackFonts": {
+          "ID": "33981fb2-7ed5-4901-b25e-f80505b4e868",
+          "Data": [
+            {
+              "ID": "43614670-ceb3-4483-b51b-770ca3a2fc88",
+              "Data": "2cd2692d-d01c-49f9-a9d0-7b3fe4c2e7f6"
+            },
+            {
+              "ID": "ae359df3-266e-4792-8c5f-3130b1a6cf21",
+              "Data": "7064efba-09a4-4872-970d-1059653166ba"
+            },
+            {
+              "ID": "1dd9d185-15a9-4dc9-8b7c-cbd3bd15aae5",
+              "Data": "11711631-82f9-44c0-b59d-4dc9e7c4c135"
+            },
+            {
+              "ID": "9a835bdb-0716-49cb-a1a6-21b8cda5ce68",
+              "Data": "33b14fc4-4bcd-4e87-8fd8-74bb658501ca"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "49f9ca32-7eb8-4d05-a3d5-7ccb3e301c3f",
+        "persistent": {
+          "ID": "a26d7287-666b-4d4f-899d-0e0cf85d133a",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "36a53ab7-a6a4-4299-9982-65ad0b9715f3",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "da88c44a-f0e9-4bf8-8cda-00c7d08cd59f",
+          "Data": true
+        },
+        "URL": {
+          "ID": "564580da-573e-4772-80b5-7fe549675e04",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "29201edb-5e68-4a2b-8d25-9c310979f1cd",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "fe200d78-9844-4a38-97be-799db10a1e32",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "32c8313a-1503-4802-9b9d-7b589f933354",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "471421ac-135c-45e0-9eba-4f4c14bb9614",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "0f8f365e-c2c0-45bf-b9ae-7cc1dc8d79af",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "98119b5e-a356-4a4d-8b25-e84693adc20b",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "2cd2692d-d01c-49f9-a9d0-7b3fe4c2e7f6",
+        "persistent": {
+          "ID": "fdcd9aed-39f3-4d98-be55-24b9e8d1c5fa",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "be462824-db12-40be-9cdb-d9f83be4cb67",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "a6820b1f-d39b-464b-b6c9-b2137cf0bab7",
+          "Data": true
+        },
+        "URL": {
+          "ID": "abf6c091-9194-4e08-b49e-cbfd5caf3978",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "b3e6d016-867c-467f-ba45-57bc64be1b1c",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "76657a4d-2ad4-40c0-a4ed-c7573dae7e04",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "f74b6367-08b4-40b2-8b6b-3cc72f3553a1",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "6bbb0e00-19f7-4628-ac46-4b3c40c65f02",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "24820d65-63ca-498d-b9bb-0cd5df697f26",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "037a687d-68f5-4f1a-80dc-e660499201c0",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "7064efba-09a4-4872-970d-1059653166ba",
+        "persistent": {
+          "ID": "8b45dbb9-9f39-4ec6-9244-a7ffb87f1286",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "9d8c80fc-f687-40d1-8727-9550df1b19eb",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "fd09f9a2-1d40-46d6-89cf-69d32d20f28e",
+          "Data": true
+        },
+        "URL": {
+          "ID": "1c690457-695d-42be-b0e5-a1c9dabac3a0",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "3473f7cb-561a-4a9c-b246-caceed08ab55",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "f10c0f70-7d26-4f54-acd5-9e5cb482aa52",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "75fb770a-7e76-46dc-9428-a84e52e2ce8e",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "af64238e-a4c6-4313-bda3-620ff5e40cbd",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "b22f5547-527b-4309-85f3-2dad651ba1ec",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "463c1423-544e-4396-94c4-4e977ae61318",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "11711631-82f9-44c0-b59d-4dc9e7c4c135",
+        "persistent": {
+          "ID": "8518caa5-0539-448b-8756-9ac3fa0b23d8",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "0e4bc26c-82d9-420f-9e8f-1d9e9c3f6043",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "9de11962-8d51-4a8e-a1c9-e7055e618183",
+          "Data": true
+        },
+        "URL": {
+          "ID": "16c91cca-f8bc-4f3e-b875-fe6989ea37fa",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "17534b2f-5a64-408b-87e5-d4cb11406349",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "8b4a27c9-103f-4ddc-b07a-99a6a770b398",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "93fb8849-ec78-4315-a9e3-3c0c3f8b5dfe",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "a78da442-84f0-4409-b75a-64c3ac77e8d6",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "830a8f90-5842-45bd-82d0-4832771e83fc",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "e69d7210-d7d1-49ca-88ec-8445397806f1",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "33b14fc4-4bcd-4e87-8fd8-74bb658501ca",
+        "persistent": {
+          "ID": "1da0982a-deb2-4acb-95d6-9887f7bc30b3",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "9f9876c0-abeb-4532-ab1e-44e2f40f5aef",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "d34dca79-c6e3-414d-9cfd-300f0c194922",
+          "Data": true
+        },
+        "URL": {
+          "ID": "7366ddf9-8272-4cd7-8056-df83af718de4",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "0d3db598-17fd-4566-9cfd-884036786279",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b960e9b1-00ce-40d2-9dae-3c59934051fc",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "618f0058-40e4-4f77-a78f-0ff11b440e67",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "e91e7d43-86d6-4da3-b90d-6020447f4174",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "d99b1ecd-56a2-4ce6-a3ab-ede6aad549af",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "1bdf0057-104f-4f00-98dd-a7358c082497",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 13,
+      "Data": {
+        "ID": "420718d6-c883-428d-a879-39ba110c91aa",
+        "persistent": {
+          "ID": "4108c74e-19ee-4401-8db3-12f1b5b264c2",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "9000d64c-fcc7-48e9-bf89-2f811746984e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "10e684a7-a433-4781-aa1a-84160895abdc",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "f499f379-fcc8-426c-a8d4-1e65a4699fac",
+          "Data": false
+        },
+        "FontAtlas": {
+          "ID": "224a38b6-3026-438c-a0aa-4439f8829bac",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "7de0b9ae-5048-4768-ba20-3bbd31f68785",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "9b76ddb3-2ebe-488e-a384-cba4d1b036a3",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "1b53c28e-ee35-42e7-80ee-7fc4f5b0390b",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "85144295-353e-462e-8fb7-f3064063ad57",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "d81c809f-7fd5-4528-873a-79f62d761846",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "14dad5ef-8dc3-4c27-8e71-c596a2f67ea9",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "56b086bc-5afd-43e0-a900-ca6c39a73ac3",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "8a8504c9-9a44-4f1e-b9b7-6426b1b621db",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "19692189-8709-496d-a275-f90f75dcac92",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "f8d3826e-684c-4e09-b2f0-f49b62a6195e",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "4d7dab66-9785-4641-8b75-7a5634f372b3",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "b8d4e388-6567-47ca-bb76-7fd51ae8246c",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "b02cf213-996c-4b28-aab1-4ea2d708a2e5",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "b70fb6ce-9d81-4c68-8efd-2d21fa44184e",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "24480c6d-aa89-40c7-9819-acc34999c6b3",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "a9a82ee6-b17b-4682-90fb-18e61359087f",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "999267fd-5fb6-4b1a-8556-e0dd74ec4c98",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "9713363f-1655-41ac-b7c6-12754e277a0a",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "b0882843-656b-4c65-8a6b-408b0b348fcc",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "e73d9638-726d-4f96-8766-63170896800a",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "973765ce-f214-4dea-9030-5f48637191ea",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "1426eb9b-3fc4-4f91-8e82-8ec23b10bf43",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "40e054fd-3030-4f2d-94eb-d17fc2f87da8",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "2037f44a-0fb5-4c2e-b31c-8a5b68d7eb8d",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "f181c78f-8f47-479b-ac68-99da5c10c436",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "17c0ee9f-b90f-4d37-8d17-76ba81c39d2a",
+          "Data": 255
+        },
+        "_shader-ID": "0000608b-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 14,
+      "Data": {
+        "ID": "50f13b9b-a076-445e-9e19-affb0d9ac597",
+        "persistent": {
+          "ID": "1fd8cf08-40a8-48ad-b249-eb3b69f8d644",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "c7080af7-6128-46f8-81eb-5351d2e88217",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "158f9162-19e1-4c47-8ef5-a1bd14ff54a0",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "ab1363e0-1777-48b1-ae6c-be23c4bd8f56",
+          "Data": false
+        },
+        "TextureScale": {
+          "ID": "5ecb5eab-fed4-429f-96f9-c50322cc1981",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "e9ce825c-193e-4511-9659-1b8e939095ad",
+          "Data": [0, 0]
+        },
+        "DetailTextureScale": {
+          "ID": "098973db-e072-446d-82c5-ba7aa552d084",
+          "Data": [1, 1]
+        },
+        "DetailTextureOffset": {
+          "ID": "2193dbc2-319d-4cc7-977a-3c61e62e2069",
+          "Data": [0, 0]
+        },
+        "AlbedoColor": {
+          "ID": "fb11e5b2-af2f-48f7-8a9c-2f4063d3119b",
+          "Data": [1, 1, 1, 1, "sRGB"]
+        },
+        "AlbedoTexture": {
+          "ID": "128940f8-3250-43f2-9183-217e3c85f3d2",
+          "Data": null
+        },
+        "EmissiveColor": {
+          "ID": "88a7e195-c6e6-4433-9e7d-3894c5dabb43",
+          "Data": [0, 0, 0, 1, "sRGB"]
+        },
+        "EmissiveMap": {
+          "ID": "50b0ea40-fd8b-4271-b7b4-f379354ef110",
+          "Data": null
+        },
+        "NormalScale": {
+          "ID": "e53aed8f-391e-42f6-835b-91573b8d2740",
+          "Data": 1
+        },
+        "NormalMap": {
+          "ID": "ecf672fb-c125-4650-8201-0a72872d2548",
+          "Data": null
+        },
+        "HeightMap": {
+          "ID": "42b3e4b6-f7c9-4dab-ab4e-13ad76fcb197",
+          "Data": null
+        },
+        "HeightScale": {
+          "ID": "b59723e7-fe7f-4fe4-b11b-45419463cf14",
+          "Data": 0.019999999552965164
+        },
+        "OcclusionMap": {
+          "ID": "bb342b90-9f11-413e-abc3-1ae0f523421e",
+          "Data": null
+        },
+        "DetailAlbedoTexture": {
+          "ID": "7bc429cb-c900-44e4-b162-8258a4327e00",
+          "Data": null
+        },
+        "DetailNormalMap": {
+          "ID": "e1703fd9-f999-40a2-80a3-07f92998972f",
+          "Data": null
+        },
+        "DetailNormalScale": {
+          "ID": "7992eaac-04e1-4b5b-9c4d-4bece7b856cf",
+          "Data": 1
+        },
+        "BlendMode": {
+          "ID": "bf887f00-7fc2-4c86-96ed-35787fd2f746",
+          "Data": "Opaque"
+        },
+        "AlphaCutoff": {
+          "ID": "bfb5638f-0a7d-422d-97d9-dbf0fb6dfb47",
+          "Data": 0.5
+        },
+        "OffsetFactor": {
+          "ID": "f0a8a100-8ba4-4044-b741-27c36241327e",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "7ead272c-a033-488f-9f5d-ffedf3b60d80",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "50cea7fc-dfb9-446f-9712-f35370ffae09",
+          "Data": -1
+        },
+        "Metallic": {
+          "ID": "aff165ac-d0fa-45d7-b3f1-e7540e62b6a7",
+          "Data": 0
+        },
+        "Smoothness": {
+          "ID": "66f97533-20d7-4199-baa9-f30c0563ce4f",
+          "Data": 0.25
+        },
+        "MetallicMap": {
+          "ID": "272d4892-c8ea-4a9d-b88e-8eb41be484c6",
+          "Data": null
+        },
+        "_shader-ID": "000060ab-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 11,
+      "Data": {
+        "ID": "de132fde-4b03-4aa0-978b-c07606ba1d96",
+        "persistent": {
+          "ID": "83dead95-210f-4b8d-b49c-e91a31c08e85",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "7bda4a05-45c3-481d-9b2d-b048a04ac8a6",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "a80b0d3a-4e1a-4ec0-acd3-d83019e8aa77",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "f1202bab-6285-4c0f-a84f-caf71ba2a5b9",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "29798328-ca69-41b8-9ecf-6c4919b0597c",
+          "Data": "5054e16e-857c-4b93-9510-f4f461c9e2e8"
+        },
+        "FallbackFonts": {
+          "ID": "92bd73fb-2e1b-4b1a-9649-c986a96c9c15",
+          "Data": [
+            {
+              "ID": "c4107f71-0a55-4f0a-875a-55a80f3b9c0b",
+              "Data": "5d4d1cbf-53ca-4ce3-b990-1c5303930ddf"
+            },
+            {
+              "ID": "ad4a1b9d-20a1-478b-9bee-b7f684ddfdcf",
+              "Data": "9e94b36c-b6d0-478f-a104-91044e852084"
+            },
+            {
+              "ID": "dae78b87-8b5b-46dc-bd0d-4dd5bb36d8bf",
+              "Data": "37a14000-b8e9-462b-8935-5fea365f86d9"
+            },
+            {
+              "ID": "1a3d4fb1-2a71-435b-a871-231ff4d4fa6c",
+              "Data": "45c6e4d4-d931-4a08-997a-80c366f7677c"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "5054e16e-857c-4b93-9510-f4f461c9e2e8",
+        "persistent": {
+          "ID": "56874b2a-52c6-4df7-b7ca-efe871871853",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "5e265ec2-477d-4e2f-a3ac-f13d88e598e0",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "14b03dac-f28c-4709-b049-19525d683b21",
+          "Data": true
+        },
+        "URL": {
+          "ID": "d9d71967-2e0a-446f-8805-da421488a348",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "a5df0ca5-1f41-4361-967b-2b40777ac469",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "064db9e0-8f37-49bd-a99a-8a56d605c594",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "d1e437cb-6fc6-48f7-b63a-05e12bbc4161",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "c42190b2-d753-4d7f-8242-81d1f8205092",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "5a526b5f-68b9-463a-82bf-e7b7c5980b57",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "0c92c72d-a063-4ff1-9d90-0d6545032540",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "5d4d1cbf-53ca-4ce3-b990-1c5303930ddf",
+        "persistent": {
+          "ID": "54f06b38-2092-4e97-b784-8a0260c25c5f",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "e784b9db-33e2-4647-89a7-3782a7cc241e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "481c7449-a3cb-4ea4-ae5e-0c95adb04972",
+          "Data": true
+        },
+        "URL": {
+          "ID": "05669566-07d5-440a-b4f4-6c755e98ec28",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "95389d1e-4057-4e85-a24f-5ed71bf82ba3",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "cbd773d4-2123-433c-8278-572178e42141",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "86acb71a-5a0f-4948-9a0b-42e316b314de",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "8a0dfc9d-31ce-4e97-9cbc-bd5dd8871061",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "a89105b4-e1e0-4b11-8da5-1f07f2935baa",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "427b71c8-ab55-40f4-b46f-917bf55c23b6",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "9e94b36c-b6d0-478f-a104-91044e852084",
+        "persistent": {
+          "ID": "971273aa-1c5e-4542-bb6e-21a1676c1f12",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "d4a5c7fa-e329-43fd-83c6-bbea18b4b65b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "fb519e12-7cea-4302-9ea3-b276758159f2",
+          "Data": true
+        },
+        "URL": {
+          "ID": "61424f0c-d312-4970-ae71-ef239616b5da",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "5a0570e9-607e-4fde-9bb9-34772ed1dc52",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b59a1ba3-deb0-479f-a029-5479329f0fba",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "6e3052fa-f894-429f-b222-72741f695fe6",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "62a9e124-13f6-4515-a6ce-7174d3f7fbaa",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "2e0ed8ee-64d9-4070-b683-676de5aa4cb3",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "abc2e677-8f94-48a0-b9d2-61f949c70891",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "37a14000-b8e9-462b-8935-5fea365f86d9",
+        "persistent": {
+          "ID": "a94c69d1-2a43-4eb7-803d-f10fd613f06a",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "8a3417a5-638f-4cf0-9165-42bf230e7a9e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "3f00e48d-d101-4c88-adaa-dd798cc08392",
+          "Data": true
+        },
+        "URL": {
+          "ID": "314b2bc9-0508-48e8-be02-383ab912bf78",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "7b799706-2059-40bc-96e6-2185602c21bf",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "49df6cd1-9f47-49d8-bbaa-4a5b7d3fb986",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "8aa27e49-3380-42af-ab72-69f49dfd524d",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "c7a33b2f-972c-421f-9c12-b3be983ea6cc",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "4ad9a8ce-4528-4e67-8947-66d400c9ff8b",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "b3a87432-c72b-4191-98c5-3db3939b4ca5",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "45c6e4d4-d931-4a08-997a-80c366f7677c",
+        "persistent": {
+          "ID": "d884922b-82eb-45a9-bcc3-6e4ed7116f9f",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f4b17244-c203-40f0-bb37-5d89782adecc",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "bc36dc0d-8118-4974-a2de-b42381e06cfd",
+          "Data": true
+        },
+        "URL": {
+          "ID": "2e1a3faf-4105-45da-bdc0-3bf2efcd416f",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "854dd718-6e41-4a93-8b80-6eeb0a743936",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "f37b8983-19c3-4d9d-9760-349656234b53",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "b3d3541e-a025-4c39-89d4-68b46e99b914",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "887c2ae3-f73b-4e52-a2a1-d7c1cdd6b7c4",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "7a59c389-56c7-466c-8816-39cef8662f3a",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "2ecafa30-5a3d-4543-a092-c09cc6fd5820",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 13,
+      "Data": {
+        "ID": "e264dfbf-14e9-4a00-9cb9-284c35faa094",
+        "persistent": {
+          "ID": "08ab3dd9-4eb6-460e-bb25-500c93ea4a3b",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "14f80cdb-6d3f-4d1d-a47c-a610103d399b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "63d8cefd-493f-43b6-abe9-8505b0f6f8e5",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "e26178a8-e1e4-4025-af50-5d59df761ad5",
+          "Data": false
+        },
+        "FontAtlas": {
+          "ID": "8a0d090d-2d08-415a-9792-f1ef0eae004d",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "be7cb107-dae7-4312-b0db-76bd6e2a4f9e",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "deb52898-7c0e-4a96-a0f2-62506fb79a5c",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "06015da2-5406-43a1-b02c-7ca27b2f30a3",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "255ad78a-fd55-4e54-80e8-7a648fb9b8f3",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "989564de-6bcc-4174-9a76-08050a77c9e7",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "0e566323-4962-4ea4-8716-eb3000058f80",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "34fa89b8-121f-46dc-b3a8-88907ecce232",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "7c346871-21b3-4823-913f-2bd5d7b001ca",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "932c8cd9-fc6c-4ae2-9082-a1912eefa381",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "f9bb4831-14c6-4d75-a010-3e34d235a301",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "838ee793-bb00-4619-9bfa-f38dae8718e6",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "6082ba96-b397-4a14-8222-0ad29056fa8d",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "c0fec441-0deb-4d1e-8110-a39a2ac69121",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "d62cbe14-3818-4029-89d5-68004fbf6337",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "f80854e8-75d4-48dd-87dc-0a5177470c2a",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "650ab5c2-f5f0-4966-9b2a-b96906c4154e",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "d6f8049e-a80c-4363-8783-ab49c83b8fc2",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "9cc8ddd8-9e06-41ac-90c2-0c2fd7ab5c87",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "3dde2477-51b1-498c-a331-199b369f41d5",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "28937463-6c7f-476e-800b-75b182875bb5",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "8b12a42b-f045-4105-ac08-b762dfa8cded",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "2b75d79f-3c51-4f3d-ad6a-4c3b08127a82",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "75356260-44c8-4ff6-927c-cd944d2501d8",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "10726dba-28b0-4f4a-9c35-b8c546f1584f",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "232b5225-ae6a-4d12-8d8f-655d6e0b2878",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "7565c100-3007-431d-b706-116720e3829d",
+          "Data": 255
+        },
+        "_shader-ID": "00006109-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 15,
+      "Data": {
+        "ID": "b08a6a53-1eff-49ac-8262-da09c4741b43",
+        "persistent": {
+          "ID": "225cd141-34a9-4ed7-ba64-db31bf0a4961",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "2bb0c4be-3e7a-4adf-b19f-9e897829733a",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "de5a44db-5a35-4a66-90bf-1c6b7a07de1d",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "3ec8e33b-6e41-49ed-9624-7597d6c4f433",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "ce53edad-4902-4cc0-b61f-ff0a06f30feb",
+          "Data": "6eede59c-0b64-4f2b-b569-5b01e814abd7"
+        },
+        "Rect": {
+          "ID": "c21f6f96-d142-4c81-8a00-b817c8517f35",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "2d419ac1-ae8d-401b-a48d-08145c0c3cfb",
+          "Data": [0.5, 0.5, 0.5, 0.5]
+        },
+        "Scale": {
+          "ID": "98549a24-fbed-44a0-b2ca-bbdaa7d32c94",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "c09c722a-7a2d-438a-8d39-5a0a6de64815",
+          "Data": 48
+        }
+      }
+    },
+    {
+      "Type": 16,
+      "Data": {
+        "ID": "6eede59c-0b64-4f2b-b569-5b01e814abd7",
+        "persistent": {
+          "ID": "c257bed8-2710-4ae0-a108-94b221d062d3",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "d6f751c5-00b3-42e5-8f35-bf3cd27a4c28",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "f20dca1e-e7c5-421d-b71d-93f3519169e6",
+          "Data": true
+        },
+        "URL": {
+          "ID": "a2604c2d-6501-4f08-8fbe-b3182d611a35",
+          "Data": "@resdb:///cb7ba11c8a391d6c8b4b5c5122684888a6a719179996e88c954a49b6b031a845.png"
+        },
+        "FilterMode": {
+          "ID": "5ab4a252-79ed-499e-94af-9f2b77a9c7f5",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "b3ffdff4-fbfa-488c-879a-aed2e8651819",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "23c0cad9-5408-4d71-834a-86db0fa40ed1",
+          "Data": true
+        },
+        "DirectLoad": {
+          "ID": "ed1de20a-7d49-4136-ad2b-ff8e2a8cb5ca",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "395aacc2-7cbc-4b51-9547-6a65cca1cc3a",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "9f9021d0-b850-4cbc-b006-c117487dbdb1",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "f6b5a41f-3551-4cf0-b965-0b7268317ed4",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "1271123e-bfb4-4d92-a230-0c697e9f0c74",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "35a0810e-9b59-4d86-97d6-6194fe35083f",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "64e4c681-0977-4f5c-a26a-a07e358ab918",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "018761f9-5c5d-4dee-9077-4db943fcc710",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "61a90ab0-0cb3-4c82-8c36-fa689e60d487",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "92b09572-da2c-4648-955a-c76527898632",
+          "Data": false
+        },
+        "MinSize": {
+          "ID": "816d759a-54df-433a-88b5-a624b11906b8",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "1e7239e8-18d9-428d-9526-a6610b35e88e",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "e1eee31f-b277-47b4-a66d-c18bf7e59047",
+          "Data": true
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "7311f237-607e-42c0-aa18-341fb4452e05",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "bc25d29a-7a62-4af5-8c4a-bf2493b131b0",
+          "Data": "Bilinear"
+        },
+        "Readable": {
+          "ID": "282176e3-ac44-41b5-ac78-793bb2c79af1",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 17,
+      "Data": {
+        "ID": "762b1e51-ef90-4e59-9aba-617f9e632bf7",
+        "persistent": {
+          "ID": "352f5ffc-f63a-4458-9884-984898508f53",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "a84c6986-9b04-4986-846d-882f5d5cf898",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "e0f5a6f4-df5e-4bbd-aaf7-3a631858fc44",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "94b164d0-85e4-4185-a178-8b90f60a6e36",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "949efc79-0f5f-4f95-b1e8-71a17d7d802c",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "83a0e0ef-1dbf-4ba7-ad0e-0ae8a0450e92",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "0a93938d-55c1-43da-84ca-58b2cce27c17",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "2854111c-39ec-434c-bb73-78a8c4f49519",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "4e8f001d-541c-4714-b5dc-d4726cb0df09",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "ef3c61ea-553c-4b6b-89a5-34df01be6190",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "58fc8d29-4113-4842-89b3-2841de868924",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "af741db9-8cc4-45be-aebd-27bcc6256b7c",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "08d74907-9370-41fd-9231-d5ab52e057b4",
+          "Data": -1
+        },
+        "Texture": {
+          "ID": "93a65bf1-3fec-4b03-99b0-664313fb131e",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "fa5c718c-1b03-4767-940d-e920b4f6e07b",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "72da8e45-5716-416b-a12f-55c9d3ad5cf1",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "fc235670-dd1a-449a-976b-0f60f5012967",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "c5b6f7f2-128b-456e-b794-8b54fa7e16fd",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "9d0a0eaf-aa78-4bf4-9fae-788816e9c265",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "5401de01-f0da-4795-8a21-7a9f76d5cb21",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "b8d0dafa-a09b-4a16-b35d-6e064a74fe30",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "d543b33d-e523-4858-a5fe-bc558c0c52b7",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "24888ccd-97c3-4001-8598-989d82e63408",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "88f15f13-d60a-4d95-bf61-62aed26044f6",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "af994725-5ca5-4e39-850a-b26a9c0eac7a",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "8f0a3b8a-f64b-4308-9b95-fcf94670b6b9",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "6c400620-57e8-403a-88de-0ea9b80ceecb",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "00bdc974-9d0e-486f-ba8a-8bbaccf804d1",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "03758656-bed3-4396-bd33-e01eb316814d",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "2af165a6-98b0-488a-92d1-1c0b45f5d8f7",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "c6407f35-7143-4e2c-9aea-4b2933dae783",
+          "Data": 1
+        },
+        "OffsetUnits": {
+          "ID": "5d40abd2-8b3a-42dc-bdac-4e61ee412156",
+          "Data": 100
+        },
+        "_shader-ID": "00006153-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 15,
+      "Data": {
+        "ID": "06a473e1-c5b1-4922-b726-0ed558f15a6d",
+        "persistent": {
+          "ID": "fa242918-48c4-4226-afe1-ef3e4dd86ac9",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "6214b293-38a9-412f-9ae0-4ddfdde7632d",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "62446567-ee13-4bc5-bb3a-c7024bda187a",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "51227dfe-9560-460c-96bc-bda644ad5755",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "c0164f68-62b1-4305-a625-8d1732752908",
+          "Data": "6eede59c-0b64-4f2b-b569-5b01e814abd7"
+        },
+        "Rect": {
+          "ID": "79e648a9-140f-4798-951e-03908006d837",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "c5baeeba-c10c-4ed9-992e-b1c28344d29a",
+          "Data": [0.5, 0.5, 0.5, 0.5]
+        },
+        "Scale": {
+          "ID": "5a313053-ac4a-47f4-b037-35ef4d93f147",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "eb2c5c38-812f-4d0a-8a68-25b7b3f5dda3",
+          "Data": 48
+        }
+      }
+    },
+    {
+      "Type": 17,
+      "Data": {
+        "ID": "e5735717-07f1-4d1a-8346-9a9bf76e0ead",
+        "persistent": {
+          "ID": "f17ddf17-0819-4041-aa48-f3dc19de4031",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "c069b8e7-8d67-4f90-8aae-8148f7a1dab0",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "c15721ba-2831-46cb-b688-d87d6e8c18f1",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "1eebcdfc-42d0-4a9b-8b27-1e1d4fbaa85b",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "91c02a8c-f7a6-41b2-affc-176335ebcccd",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "8fecfb0a-26ce-4952-9ef3-fa60cce1db9f",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "cb9f4e2c-79a2-4d0e-bdf0-b0643cfd2c91",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "f1886b71-3954-4913-9d4e-945024a7cf43",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "8e645eff-ae77-4161-8a60-ae1179e247fd",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "1bbff3a7-600d-4632-a005-139b9418ac03",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "33bfa97a-9af8-4e8f-ba64-05cdb9ed7d45",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "5c211d3f-7c11-49da-9626-90d710135e58",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "1c12451f-1363-4762-a113-cf2e1c90f70f",
+          "Data": -1
+        },
+        "Texture": {
+          "ID": "4b17622c-036e-4077-90bc-f22ea4343f15",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "568e12b2-2f96-42ec-b422-acaf3aa2cff6",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "8d0621b5-4c65-447a-86d7-137e5e66795c",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "ea7bfc82-757e-44d9-bf9e-25233a30181d",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "b99e84e2-7df8-4e52-a872-199361860c8e",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "264fef84-1713-43fe-92ce-326ea5551cc8",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "764aed10-6f6f-48f6-aa5e-0e80f8dbd512",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "f34a1925-69fe-427d-85d0-d5acdc6a25f7",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "6d0d691c-38cd-4ad5-b73a-18c14425100a",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "5aee8448-2f96-4e03-8b7e-631157cc2c4d",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "26e1ddb7-382f-4d91-8498-d767cf89004e",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "f174d5c3-8488-46a4-9c97-81bf9fb06bf7",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "a0d0fc8a-f21d-4b57-b8ed-3774ec03c53c",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "f6b8e970-9efb-4593-8505-aef8531650c1",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "dc477f2b-08f0-48e6-9e42-330d9caa6a8b",
+          "Data": "Back"
+        },
+        "ZWrite": {
+          "ID": "95c1f818-b6b4-492b-9c19-d5fbb51c4383",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "eb45d68b-fb38-4477-a6d9-2ec62ce29740",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "28012d09-eb17-46dd-8687-7874f858b16b",
+          "Data": -1
+        },
+        "OffsetUnits": {
+          "ID": "7be7482f-8822-4483-b2d1-448757c12cc1",
+          "Data": 100
+        },
+        "_shader-ID": "0000617d-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 17,
+      "Data": {
+        "ID": "fca943cc-7692-458f-8e64-d46946d4351e",
+        "persistent": {
+          "ID": "8c3b49cc-2453-436e-b0c8-cd46f5d9f3d5",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "169ef2b7-3f53-4d0d-980f-bb8a3eabd566",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "83c45c5d-1e3f-4721-adad-2eb07063ad9e",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "ba6a208e-ee3f-4fbe-a251-dfa674b08283",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "4e26fbb6-da2e-400e-9f05-db73e6933041",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "84e55f4c-fd38-41ce-b262-9a2749fabbdf",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "4a762457-a22f-4f71-93e6-bdcbb4a11052",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "d9ff6504-cff9-47d5-a4a4-5e7a66f08d9c",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "a8c9cbe8-3731-42a3-8f23-ac6204567c44",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "70c863af-9386-4419-a019-b35a9e96e24d",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "4c5b4fa8-51b5-4775-9ea7-7a0685f6ce4d",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "1143ae8b-b9aa-4881-9ca2-d517b38c7904",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "098f86a8-89d3-4cda-a67b-8568b0df83d7",
+          "Data": -1
+        },
+        "Texture": {
+          "ID": "ea89a00e-f5c6-448b-bc14-611627f81c08",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "a67f1558-bb1e-485d-9d57-935953d3fab0",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "1b9120cd-12b6-4462-834c-a1d30409f3ba",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "b15cba6a-78d5-447c-8f86-b5c134b5d1a3",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "627bd92f-3aae-4c07-9bfe-d27afd5b8dc4",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "ba2f09ed-48c8-48d1-b4ce-9656bfc12a76",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "e771dbcc-979f-45c9-9d71-2cda49f88cf3",
+          "Data": 0.009999999776482582
+        },
+        "AlphaClip": {
+          "ID": "86b45bf3-6ac9-45eb-9a6b-3dd8cfa9b8f6",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "5d363f49-d26c-407e-a242-75541e110b90",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "63f6763e-ce8b-4021-b236-992ea97423c9",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "8d5a62e9-11d7-4b11-8446-c6f967caf157",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "4b98f46d-9184-49a8-8f7d-1b5999cb1f05",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "1fe5fad8-0f06-4bbd-b5ff-a211eff8d90b",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "5bf73e17-c8cf-40b7-8135-dc5d49a49e58",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "df241d4f-5d2f-4369-a496-e9cb52da2be6",
+          "Data": "Back"
+        },
+        "ZWrite": {
+          "ID": "a77ecc6f-ca27-46ab-8924-74984f27e6ef",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "63ece93d-c38f-4348-8304-7a932d35145b",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "8b5ee98f-c34e-43f3-a1ae-a941bffc94e3",
+          "Data": -1
+        },
+        "OffsetUnits": {
+          "ID": "e254757d-67ff-4eed-a439-2d426fc2c526",
+          "Data": 0
+        },
+        "_shader-ID": "0000619e-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 16,
+      "Data": {
+        "ID": "6b5ae528-bbbc-4e9a-8ea5-874b7e8afbfa",
+        "persistent": {
+          "ID": "b42a8056-8563-49f6-acb9-5dca0286b7b5",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "28ba6aae-7be7-40db-aa2b-f89e2b591f93",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "0f3209f9-73ca-472e-b430-b87250533238",
+          "Data": true
+        },
+        "URL": {
+          "ID": "aabd4e39-00b5-447b-8725-4034c85d2165",
+          "Data": "@resdb:///f4720a1cb88038a16df12badc1d1d3487c927279e4f16b97b2b4a2fb71a1ab2b"
+        },
+        "FilterMode": {
+          "ID": "3dc5ba50-803c-4180-aad7-433a9cd75994",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "7c98e727-e988-4f4e-b5a7-74ad219f406c",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "1ef2c078-5c1f-494b-b0a4-b31d86810e24",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "82986171-997a-414d-9d2e-ba88374e081b",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "c518bf88-b376-492d-9063-fd2ef7f58434",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "41a77642-c3ed-431c-a6c5-85c97e2565ac",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "d0953036-243e-46f6-936f-0e35e5be3ecd",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "f7e18ba2-6c6d-48ed-9abf-43ab968a0609",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "dec038d9-a26e-41cd-b4d7-9df9cd9f9990",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "33549547-fef4-4316-a6e4-9ef244f50ded",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "a8e24171-6f81-44b7-a3c9-fd5b74245f9f",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "23953327-3fd0-4c1c-bb05-d04ab78bd9a0",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "a5355d5f-9d0e-43e7-b8eb-d044d157894d",
+          "Data": true
+        },
+        "MinSize": {
+          "ID": "bc786ce7-76af-43c2-b155-2d9f9b99d727",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "4861a455-3ace-45ef-be6e-c9a7ad65be91",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "ab49ab41-1d76-4113-883a-ff97786660fb",
+          "Data": true
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "45606986-5472-44a8-849d-f82302b9c76c",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "389314d0-93a6-4b72-8783-d089fd84f2f7",
+          "Data": "Bilinear"
+        },
+        "Readable": {
+          "ID": "eafcecdd-e16b-4ade-872f-0f3d37603649",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 11,
+      "Data": {
+        "ID": "73a6821f-b4ea-4a80-bf81-174c2c9b2036",
+        "persistent": {
+          "ID": "729d3c02-8fa6-4e40-8781-27141f4a7981",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "440d1ab0-4e96-47f4-9d52-14e446f9111b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "0cd6198d-ee1e-4508-8f51-8a4593d39fa1",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "458371e6-a549-4a5a-ab1e-f3c23403d546",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "84446912-c5b1-44bb-8955-dc7373a90e33",
+          "Data": "e2f0fe35-892c-4f82-a69b-d5488a326a81"
+        },
+        "FallbackFonts": {
+          "ID": "efa2632a-4edc-4a4b-9a6e-5c443aa179a7",
+          "Data": [
+            {
+              "ID": "32bc986e-b9c9-4169-b69a-cdf5c1af93f5",
+              "Data": "260ea199-931c-4e39-9581-a4d2073408b4"
+            },
+            {
+              "ID": "f1c41798-e182-4436-8320-083f54d488d6",
+              "Data": "96583476-16f9-452d-8bba-5194e677a562"
+            },
+            {
+              "ID": "13e58eef-520f-4bec-b362-adb9dc2d1e06",
+              "Data": "fe85c45c-5646-442f-b810-094ec3b5ec88"
+            },
+            {
+              "ID": "64550dd7-d3bd-4d4f-9f99-34aaafa3b2bb",
+              "Data": "a1e1fceb-ebf2-48f7-a3a7-54f546df4d56"
+            },
+            {
+              "ID": "a6c925c1-9ee1-4292-bcb0-7a67b02c5e05",
+              "Data": "002d13a7-84eb-4a13-b500-7e682e5b259e"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "e2f0fe35-892c-4f82-a69b-d5488a326a81",
+        "persistent": {
+          "ID": "d1a7261e-c2db-4c7d-b0ca-8634d8f5267f",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "265bcecf-23dc-442a-b858-641128ad0b65",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "912c4d74-0e7a-4f06-be49-c53322f9aebb",
+          "Data": true
+        },
+        "URL": {
+          "ID": "2f4b0275-0add-46a9-867a-1cf3b3ada2cf",
+          "Data": "@resdb:///fcff04f4bec2b3636f05ed894dc1f9a752c4cb587ee49857ec7a82abaf6ca016.ttf"
+        },
+        "Padding": {
+          "ID": "d9e76faa-2f83-4f6a-bccd-3fa44bd5d5d0",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "707320f8-4451-4cbb-8e97-db765bbfcd53",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "e4853da9-e70c-4b71-8409-860edb64a04e",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "686ab796-09e0-4663-92b4-c6fba6fa50fd",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "ea6d5910-6f20-4682-a396-a439967cd03a",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "fec76146-649f-41db-82f4-676181ba88ee",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "260ea199-931c-4e39-9581-a4d2073408b4",
+        "persistent": {
+          "ID": "1fe81b84-5751-4926-b66d-5d46dfe5c8f7",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "241cfd7d-4326-4228-983b-d8e61e26917b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "cf2d9840-cae7-4683-9d19-f49773b879d3",
+          "Data": true
+        },
+        "URL": {
+          "ID": "46ffd7f6-583d-47ac-9ba6-1d3d15bc2b83",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39.ttf"
+        },
+        "Padding": {
+          "ID": "ebad1599-30c3-4eba-97d1-776dd6539861",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "12414d06-5f32-43a5-a611-845a728c949b",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "532a158d-b19c-4b14-a755-0b5fabbf5566",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "e53df297-28a0-4e91-9401-357c22badb8d",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "f1b069e9-6fad-4ac1-a6c3-25f7d32745ff",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "5dcda795-9a66-40d5-b8d7-32eb632c220f",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "96583476-16f9-452d-8bba-5194e677a562",
+        "persistent": {
+          "ID": "05051db0-5c41-445f-a64c-a965feed0581",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "fbfc05d0-70fd-4aea-914f-c4340452de83",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "2621fb0f-44e2-4fc9-a6a8-54ec5bb4be86",
+          "Data": true
+        },
+        "URL": {
+          "ID": "d5f1fa39-23d0-44a6-85bd-6c911b7a494a",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25.ttf"
+        },
+        "Padding": {
+          "ID": "0a65c322-977e-4650-831e-4496b24197ce",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "6f6c047c-ff48-4e79-b274-5c628f9af38f",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "d7014645-d070-415d-89f6-8386e84e7d8a",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "df381d8d-da51-436f-8064-99e60f22cf19",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "96643138-7211-42f2-8169-941de9c45e7b",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "656900d6-a8fe-4b68-bf1f-3ceb4b759f52",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "fe85c45c-5646-442f-b810-094ec3b5ec88",
+        "persistent": {
+          "ID": "19fb0107-143a-4c34-85ca-65c447a7a7b5",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "0de54aab-d4ea-432e-b2b2-aa08abdce0fc",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "77c41aa9-fd50-4672-a0ae-7dadcea0b5dc",
+          "Data": true
+        },
+        "URL": {
+          "ID": "2a417beb-d1dc-494b-9522-5475d01ef0ec",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927.ttf"
+        },
+        "Padding": {
+          "ID": "4ae79552-554f-4016-a924-6fdb37c9c429",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "8597c439-6a79-4e88-8a76-093b89213d78",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "920c2593-4746-4c22-8bd0-6502854796dd",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "6c916fb4-8913-4c3c-82ac-22bb0b4a7365",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "cd02ead4-2913-461d-987f-b62379535507",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "5a2ae369-43f9-4f6f-b9c0-a5ea8745123a",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "a1e1fceb-ebf2-48f7-a3a7-54f546df4d56",
+        "persistent": {
+          "ID": "f1ca495d-6256-4e3b-9ef3-56e4c2f28716",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "ac400598-dbaa-4a5d-8960-6ffe29e5a6e0",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "28014ea4-ca58-46dd-862e-23937e1dfe26",
+          "Data": true
+        },
+        "URL": {
+          "ID": "54dc779f-268f-4894-b0e7-a9dc7c4240a7",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5.ttf"
+        },
+        "Padding": {
+          "ID": "2a72ff7b-d2b7-4f2e-abb9-ca745a37efad",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "7c9238c2-388b-44e8-9706-c4db56f7a687",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "3f6abe54-927e-4804-8ba6-de7222cdfbc1",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "566e2e92-12fd-425b-bb80-89c563206ab9",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "f9e09fd7-3e1e-4c59-bb68-aa24490cfd3c",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "1f6d44ac-85c2-4a52-8a88-6e478f5d677b",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "002d13a7-84eb-4a13-b500-7e682e5b259e",
+        "persistent": {
+          "ID": "fc32672b-6919-4803-83ed-f873b2754477",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f36e2487-bcaf-45e0-b222-f4352011ef70",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "362bd70e-6f71-4f53-b5cb-062996aaa7e6",
+          "Data": true
+        },
+        "URL": {
+          "ID": "5d6350d8-8684-4a80-ac2b-c1dfd5766146",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d.otf"
+        },
+        "Padding": {
+          "ID": "718cdf75-75c6-47c9-a748-3922c3f3bc56",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "a7c4dc5c-9646-49c5-a179-8f10940af00f",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "e373b0e3-35e2-4bd7-a803-5ab8e5a9bff4",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "476c56d8-e7c0-4c87-a94c-fc0c3c571c10",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "a1b737b1-efd1-4a9e-97ec-96012443415e",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "67343ad8-61f4-4dbf-9fec-420f8cde961d",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 13,
+      "Data": {
+        "ID": "7dabf495-9e7e-43a1-9223-ce52b8952fb8",
+        "persistent": {
+          "ID": "48d602f0-3ef1-4adf-9618-00a6efb2c8df",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "6d83a3a1-c37f-4f4f-b684-331b8979b52f",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "0d36a4da-5149-4a6a-b676-8a464e3c32d9",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "9abf974a-ea1a-4cb4-8dc9-af4f4b8d3060",
+          "Data": false
+        },
+        "FontAtlas": {
+          "ID": "2c0c5182-2ecd-4455-97a7-d3278c52b3a8",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "8bed9baf-a79b-408a-8caa-2457d3d150de",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "fc789cc1-d67e-427c-88aa-c9bbbe3d79fe",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "8fcf1118-1aea-475f-b647-a97c2142017b",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "2d73ff0e-1366-4bfb-bcd4-c2146db121e8",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "9aa2bc9a-3d90-4705-b38c-56c2997277f2",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "b0283ee8-f40c-4b7f-9a25-af1bbd36363f",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "4788acda-139a-403a-8128-fb2bd14e79f6",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "30efd099-b4d7-481e-81b5-7c7e0cd5d824",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "277baf36-736f-4369-a9e9-722cd19bde25",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "b1a8f4b4-46a7-4376-90c3-ff40466cc446",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "12c35c18-7144-4d87-bce1-49f452c6e6d3",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "948c84e6-0f99-48a9-b8b2-84e4c8967ea2",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "329c575d-2674-4228-9582-d32a16976cd4",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "51be9f61-3dd4-4da9-83d3-d2e96335b15f",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "5d0932e5-b577-4d5b-b135-7fdceabbe0fc",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "fb71f7cc-005b-4485-954a-d77431f2c2d5",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "3e71cd8a-a1ed-4cc2-a409-9e6f5d55e8b2",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "3aae0f6e-5e02-40cc-afec-7aeb9a3b8180",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "5855c980-7d41-4bcd-a369-03b99f2219ff",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "c6f1d439-70a0-4a95-93f1-d3d296cb575d",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "9888a816-9af0-41af-9e12-55a27d911c7e",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "570592df-4652-4c77-8bc4-307223c6b0c8",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "8ca51741-5495-4025-836f-1dbe6095ef1c",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "a8ac2379-3ead-43d5-b24f-eca6b5fc4aa0",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "9d361974-0241-486c-8f7c-ab84b212c347",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "2ba84e05-7c8c-4ad2-a592-667e7c18f690",
+          "Data": 255
+        },
+        "_shader-ID": "0000621a-0000-0000-0000-000000000000"
+      }
+    },
+    {
+      "Type": 15,
+      "Data": {
+        "ID": "05511c47-1e44-4f5d-9b5d-2cad8c194766",
+        "persistent": {
+          "ID": "5a3efbb3-541b-4d0b-b345-626ead5f3256",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "441b46da-8085-44cb-ba99-5642a3721243",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "9eecfe09-cd78-4477-bcf9-7f86db6e58a1",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "22845add-2003-4b6b-9b39-edecdc8d899a",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "31b422b9-0db7-49f5-90b6-bbb19ade9f85",
+          "Data": "bfb06646-10fd-42b9-b862-fc7f0aa10d91"
+        },
+        "Rect": {
+          "ID": "b758bbaf-719a-4def-b936-ee93bff07e0e",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "98174f40-2179-4c0d-aa3b-38120b036a89",
+          "Data": [0.5, 0.5, 0.5, 0.5]
+        },
+        "Scale": {
+          "ID": "e6b8e785-db87-4395-9330-f9c5c1ba21c4",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "9b068af3-4cce-48f3-b008-12efa30393d5",
+          "Data": 30.68235969543457
+        }
+      }
+    },
+    {
+      "Type": 16,
+      "Data": {
+        "ID": "bfb06646-10fd-42b9-b862-fc7f0aa10d91",
+        "persistent": {
+          "ID": "99b990cd-bb7b-49f5-80e5-80996ce323d0",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "45d3f6c8-ef12-4e26-bbcf-eca1f6fdd580",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "dd798759-3b5d-44a3-85c9-fcd605a55c8c",
+          "Data": true
+        },
+        "URL": {
+          "ID": "25a89b8a-651b-4f1e-9da4-9fc25b68533f",
+          "Data": "@resdb:///cb7ba11c8a391d6c8b4b5c5122684888a6a719179996e88c954a49b6b031a845.png"
+        },
+        "FilterMode": {
+          "ID": "2f41d35b-115f-4fac-985f-37c37dc431c9",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "5e6c4ab8-7dc9-4b7e-a706-aa2776420c98",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "d18325d8-6f7c-4d5e-8508-465cfe254413",
+          "Data": true
+        },
+        "DirectLoad": {
+          "ID": "3610dd46-12be-4e12-a3f0-33144438a9c2",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "192b95fc-a889-4595-9c39-70b176d3c320",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "8c1bd543-f694-4fc0-9200-989ac6f5b3ed",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "932741b3-d333-497b-a60c-ba7e7356f75f",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "2b96f135-2761-4157-8f22-1ac41d82d381",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "ccc718fe-40ac-4ad4-8adf-3b17845e3640",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "94c5f0a1-1a1f-43b2-81b0-538ba53dd1dd",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "c5533465-9543-4771-9531-e1c3a27e5686",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "12daf322-05f2-4208-9da2-7484496bb7eb",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "e955d882-bd0d-44d7-a255-b57e6ffd84f2",
+          "Data": false
+        },
+        "MinSize": {
+          "ID": "00ef1329-efbc-4840-bff8-29728363fc9d",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "d1d00d98-62e1-4a00-912c-451eb11d32d6",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "8830187c-c8a6-466e-b289-9be73c554085",
+          "Data": true
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "2f88ac8e-67c1-40b3-bd59-f0c488c8e259",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "f51410af-017d-4b4f-a7f7-f12e4f1a2c7a",
+          "Data": "Bilinear"
+        },
+        "Readable": {
+          "ID": "1796f6d4-baee-4851-a7ff-92c6d22f695c",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 11,
+      "Data": {
+        "ID": "b77cf620-7cff-42b3-93b5-7de0f9e85649",
+        "persistent": {
+          "ID": "836d12b3-43cf-4945-a704-0821a17af83f",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "2040497a-4df3-4e6d-8b12-9ec4dcd1156c",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "db4dcf0d-9b34-4861-942c-1bc97b372eef",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "b1f236f4-7696-43a9-a008-1f9aa8a7a409",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "f0b65d21-b720-40b0-86ec-834b5709184f",
+          "Data": "360072af-a025-4898-a681-70ac1208a08c"
+        },
+        "FallbackFonts": {
+          "ID": "34510b2c-6533-4ed7-bb45-15d7c126a5cb",
+          "Data": [
+            {
+              "ID": "e3fd7894-4fa8-4cfa-aa14-a5e7855d5d3e",
+              "Data": "95329d15-2a91-4445-bebd-9da6aa769a98"
+            },
+            {
+              "ID": "8f7bbe2d-4654-42c4-a898-1080f1232230",
+              "Data": "392898c4-0782-4729-9749-2e7c3e1385fb"
+            },
+            {
+              "ID": "8c43081e-466e-4220-b1ae-04923e32d97b",
+              "Data": "7e2f89d7-b5e1-4931-8038-5ad254f738b8"
+            },
+            {
+              "ID": "1d74a82a-7484-41cd-8ad7-442e5cd48aab",
+              "Data": "c6ff1858-0b72-49eb-b0e9-ec6aee3309f4"
+            },
+            {
+              "ID": "57ffe4f5-4de1-40c6-8879-c911340da965",
+              "Data": "f0ce50c5-cc55-425d-9c87-4ca7c28fbcfd"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "360072af-a025-4898-a681-70ac1208a08c",
+        "persistent": {
+          "ID": "716c8114-ae24-466c-886b-797023fc364b",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f1037c22-f0d3-4781-87a5-7ed0703e884b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "ae326807-33dc-4988-84f3-6440565d7618",
+          "Data": true
+        },
+        "URL": {
+          "ID": "bbf12b4c-1ed0-493d-8ce2-5b0c46e3bd2b",
+          "Data": "@resdb:///fcff04f4bec2b3636f05ed894dc1f9a752c4cb587ee49857ec7a82abaf6ca016.ttf"
+        },
+        "Padding": {
+          "ID": "93b71f68-bbf5-4636-b2da-49abe59a1187",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b2ee9a6d-af66-4d27-9e01-354b6015c0e0",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "d37dd152-6b07-4b82-b97b-cc02706c75be",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "97f589a1-ca52-4085-a5f5-89d553217099",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "55df2079-b3de-40fc-843f-00c6a22ed510",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "7928ac82-4f88-4454-866b-a9af1b18ae91",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "95329d15-2a91-4445-bebd-9da6aa769a98",
+        "persistent": {
+          "ID": "308703ec-aa1c-4f47-9195-6919ce056f95",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "72f65e7c-4951-4807-ba05-00aa522401ba",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "ff17b7f2-fc5a-4dd5-8a8a-0ba83bec50e5",
+          "Data": true
+        },
+        "URL": {
+          "ID": "24627ff8-4106-4b5f-a451-ccae8368e708",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39.ttf"
+        },
+        "Padding": {
+          "ID": "f5523d60-85dc-45ca-b660-b3edca27a2a5",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "73e58300-9467-4c90-a1de-418cf9890257",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "c00b9c9d-e869-4576-9620-2e4742ed054e",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "5abda7e6-a830-4a33-9bf6-c27f9b7081c7",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "3ad10e90-922a-4528-866e-8d919ac55c7a",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "5be46ad0-10dd-478f-85c0-6474b59ba4fe",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "392898c4-0782-4729-9749-2e7c3e1385fb",
+        "persistent": {
+          "ID": "8c5248e4-a49b-4919-831a-a47ca3e95bf2",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f437539c-f369-4d50-af71-a94bb67d45b6",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "e02f0a36-db2f-4cd4-ad08-7672b3022496",
+          "Data": true
+        },
+        "URL": {
+          "ID": "00adfba0-4907-40ae-8792-fad0cc729dc6",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25.ttf"
+        },
+        "Padding": {
+          "ID": "9e1c0d71-5bce-48ef-84a0-11d6d911268e",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "22eca31f-f79f-473b-96a7-68bf8ee05f79",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "bb1c959e-19fc-451e-b6ef-7badb7403fb8",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "1735ee12-5b8a-4c4e-a492-929c16c46291",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "821722bc-f41a-46f1-8736-45466ead2167",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "9c7ed933-990b-4e4c-9f9c-13d3a07e4b7a",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "7e2f89d7-b5e1-4931-8038-5ad254f738b8",
+        "persistent": {
+          "ID": "498b7d6f-0eac-4ea0-b4e4-dce412ca3840",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "95691a66-7aaa-4b20-9dc5-0be8e9c3ca62",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "f33a8645-96c5-41f5-aad8-45fdee48a788",
+          "Data": true
+        },
+        "URL": {
+          "ID": "0a042119-afc4-48f3-9845-a7f385c22b3f",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927.ttf"
+        },
+        "Padding": {
+          "ID": "111d04e4-9f96-4aee-947d-1e041cfe1119",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "a27e7861-0485-459f-aea5-84deedc44643",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "97eeae28-ab51-401b-a243-28c5bd464376",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "4a24b22d-0093-49e7-8a5a-5f2c15c08a06",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "fc4828dc-2c4b-4dd7-9e43-fda01056aa4e",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "c611c800-5dc1-4224-976c-421690bf4625",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "c6ff1858-0b72-49eb-b0e9-ec6aee3309f4",
+        "persistent": {
+          "ID": "07ba7d02-f598-4c1a-9815-d25fe7fa989f",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "726fadb8-8a0b-4683-8322-98bdb0057ea3",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "659641db-f357-4982-9b40-3efe2afa5e72",
+          "Data": true
+        },
+        "URL": {
+          "ID": "84877d4c-95b8-4e34-9c38-e950543a8422",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5.ttf"
+        },
+        "Padding": {
+          "ID": "907fcf4b-c461-4711-a27a-f3994455004f",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b361a1d6-ab80-4d8a-a6c7-d94d917d3418",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "3a6321bd-8425-45b9-8d19-aaf91bdfbc52",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "5b49aca7-0e8c-427e-aa01-012fff291a50",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "3d92b087-f953-4b05-a583-07bf1162e9dd",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "f4f487b2-7315-419f-b315-00936d831aca",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 12,
+      "Data": {
+        "ID": "f0ce50c5-cc55-425d-9c87-4ca7c28fbcfd",
+        "persistent": {
+          "ID": "6b68c79e-c539-4f2f-b2c9-0a6f53b6bce5",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "fd77a321-3651-4259-a1e8-40d8da9590b4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "6c07968b-7d94-48f2-8954-88a367d8f673",
+          "Data": true
+        },
+        "URL": {
+          "ID": "c17cfc3a-d377-4b2a-93ac-9b9ea01a7367",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d.otf"
+        },
+        "Padding": {
+          "ID": "d7573284-751d-466f-89d5-e5517ef91a57",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "d4693c38-51d8-4b05-9171-4e9bba5cbfeb",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "96839016-efa8-479d-ac62-06830aa454e5",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "8823c397-e47c-414a-b7ff-f549aa7475e8",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "8764997c-4f9b-4b43-aeeb-09c41f49a57e",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "659e8ab9-64e7-4f58-a466-ce7bfda9f864",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 13,
+      "Data": {
+        "ID": "1ab393a3-dddc-4037-a534-ce68cdc66c0a",
+        "persistent-ID": "ad586e73-f587-46e1-952e-66370020a8b2",
+        "persistent": {
+          "ID": "25e0d5b7-0d0f-479b-8fb0-ac358b20ca1a",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "e702e3f7-3fa3-4872-b514-2b44c754e442",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "441e07d7-abe3-4d79-b045-28bc7a51fba9",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "69574d93-d78a-4b06-a3a2-c5d9958818ff",
+          "Data": false
+        },
+        "FontAtlas": {
+          "ID": "663c0b8c-4836-4683-8962-8803c576768c",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "7b3a3267-4597-4590-b4c5-6a90fcbb8731",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "52395c3a-5d0c-4507-833c-0b51794484c0",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "8e5cae41-3d2a-4b79-89fd-90dcf602f576",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "ba6d560b-5831-4a68-814c-a0712527bffc",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "4348e228-02b1-4271-87fe-6357f6430a0c",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "682e9b29-520c-43e0-94d8-b406cf7fd278",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "0fe50b33-af47-4d2c-ab25-db6d9a53f761",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "c5721fe5-b584-4669-b25e-58ec05293d26",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "4e191fe3-0e9f-470c-9459-117cb5fc9751",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "58690227-c2b7-4d82-9540-d9cd8679c60a",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "1972e51d-6f16-44e5-ad0f-f0056ac61309",
+          "Data": "Front"
+        },
+        "ZWrite": {
+          "ID": "7e6bce9a-c527-4aed-b4e6-48caea04cbc2",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "8665240e-179f-44c4-bc6a-533fb7c1599d",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "70e1bc12-534a-48e6-92b1-6468f6735f90",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "a52ee402-bc76-478c-a1d5-c6762abce505",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "8e891194-93ab-4bc7-8259-658c022af4e7",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "15cf0fca-cd46-43b5-b132-802683b1d86c",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "7a73d831-533c-41da-a256-3ccb05f0d0b8",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "bed4bb0c-e5f1-4170-9535-d871b7bd79f1",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "e1a808bf-def3-49e7-9a2f-74b342f5ffe6",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "932ad485-1ef5-46f2-acf2-540a58a050cf",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "51d3ffee-14db-4731-805e-2c2e35b07ab8",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "e8a46043-6aa7-4f92-98d8-d177c17e619e",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "fdc4b9ff-e057-436c-8286-42c5ec662ee7",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "68cc4437-e746-4289-91e0-f373bf99cc7a",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "24eeca51-da73-4060-b14e-62d4bb07488a",
+          "Data": 255
+        },
+        "_shader-ID": "000062a8-0000-0000-0000-000000000000"
+      }
+    }
+  ]
+}

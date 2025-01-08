@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "./src/core/main/**/*.ts",
+    "./src/core/main/**/*.tsx",
+    "./src/core/unit/**/*main.tsx",
+    "./src/core/unit/**/*main.ts",
+    "./src/core/unit/base/common/**/*.tsx",
+    "./src/core/unit/base/common/**/*.ts",
+    "./src/core/unit/base/main/**/*.tsx",
+    "./src/core/unit/base/main/**/*.ts",
+    "./src/server/**/*.tsx",
+    "./src/server/**/*.ts",
+    "src/lib/miragex/common/**/*.tsx",
+    "src/lib/miragex/main/**/*.tsx",
+    "src/lib/miragex/server/**/*.tsx",
+    "src/lib/miragex/util/**/*.tsx",
+    "src/lib/miragex/common/**/*.ts",
+    "src/lib/miragex/main/**/*.ts",
+    "src/lib/miragex/server/**/*.ts",
+    "src/lib/miragex/util/**/*.ts",
+    "src/lib/miragex/unit/main/index.tsx",
+    "src/lib/fileUtil/index.ts",
+    "src/lib/miragex/res/index.tsx"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "./src/core/unit/**/*res.tsx",
+    "./src/core/unit/**/*res.ts",
+    "./src/core/unit/**/*ResFeedback.json",
+    "./src/core/unit/base/res/**/*.tsx",
+    "./src/core/unit/base/res/**/*.ts",
+    "./src/res/**/*.tsx",
+    "./src/res/**/*.ts",
+    "src/lib/miragex/unit/res/index.tsx",
+    "src/lib/miragex/res/**/*.tsx",
+    "src/lib/miragex/res/**/*.ts"
+  ]
+}
