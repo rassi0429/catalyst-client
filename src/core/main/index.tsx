@@ -1,5 +1,5 @@
-import { SampleSwitcher } from "./sampleSwitcher";
+import { Catalyst } from "./catalyst";
 
 export const App = () => {
-  return <SampleSwitcher />;
+  return <Catalyst />;
 };

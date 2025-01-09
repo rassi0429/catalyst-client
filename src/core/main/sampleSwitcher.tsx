@@ -20,9 +20,11 @@ import { MineSweeper } from "./samples/mineSweeper";
 import { SimpleCounter } from "./samples/simpleCounter";
 import { Misskey } from "./samples/misskey";
 import { UserSearchPanel } from "./samples/userSearchPanel";
+import { Catalyst } from "./catalyst";
 
 type SampleCode =
   | "MineSweeper"
+  | "Catalyst"
   | "Misskey"
   | "SimpleCounter"
   | "UserSearchPanel";
@@ -104,6 +106,8 @@ const Swtich = ({ sampleCode }: { sampleCode: SampleCode }) => {
       return <SimpleCounter />;
     case "Misskey":
       return <Misskey />;
+    case "Catalyst":
+      return <Catalyst />;
     case "UserSearchPanel":
       return <UserSearchPanel />;
     default:
@@ -157,6 +161,12 @@ export const SampleSwitcher = () => {
                   setSampleCode={setSampleCode}
                 />
 
+                <SelectButton
+                  currentSampleCode={sampleCode}
+                  label="Catalyst"
+                  sampleCode="Catalyst"
+                  setSampleCode={setSampleCode}
+                />
                 <SelectButton
                   currentSampleCode={sampleCode}
                   label="Misskey"
