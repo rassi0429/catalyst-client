@@ -3,8 +3,8 @@ export type Status = {
   body: string;
   createdAt: string; // ISO8601
   user?: User;
-  medias: Media[]
-}
+  medias: Media[];
+};
 
 export type Media = {
   id: string;
@@ -14,8 +14,8 @@ export type Media = {
     width: number;
     height: number;
     isSensitive: boolean;
-  }
-}
+  };
+};
 
 export type User = {
   id: string;
@@ -27,5 +27,15 @@ export type User = {
     bio: string;
     website: string;
     additionalWebsites: string[];
-  }
-}
+  };
+};
+
+export type Reaction = {
+  [symbol: string]: {
+    count: number;
+    hasSelfReaction: boolean;
+    name: string;
+    symbol: string;
+    url: string;
+  };
+};
