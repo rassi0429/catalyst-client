@@ -1,4 +1,5 @@
 export { O as Canvas } from "./Canvas/main";
+export { O as ContentSizeFitterVerticalLayout } from "./ContentSizeFitterVerticalLayout/main";
 export { O as GridLayout } from "./GridLayout/main";
 export { O as HorizontalLayout } from "./HorizontalLayout/main";
 export { O as IgnoreLayout } from "./IgnoreLayout/main";
