@@ -29,11 +29,12 @@ type StyledSpriteConfig = {
 
 type StyledUiUnlitMaterialConfig = {
   type: "UiUnlitMaterial";
-  offsetFactor?: number;
-  offsetUnits?: number;
   alphaCutoff?: number;
   alphaClip?: boolean;
+  sidedness?: "Auto" | "Front" | "Back" | "Double";
   zWrite?: "Auto" | "On" | "Off";
+  offsetFactor?: number;
+  offsetUnits?: number;
 };
 
 type StyledUiTextUnlitMaterialConfig = {
@@ -100,24 +101,27 @@ export const createSprite = ({
 });
 
 export const createUiUnlitMaterial = ({
-  offsetFactor,
-  offsetUnits,
   alphaCutoff,
   alphaClip,
+  sidedness,
   zWrite,
+  offsetFactor,
+  offsetUnits,
 }: {
-  offsetFactor?: number;
-  offsetUnits?: number;
   alphaCutoff?: number;
   alphaClip?: boolean;
+  sidedness?: "Auto" | "Front" | "Back" | "Double";
   zWrite?: "Auto" | "On" | "Off";
+  offsetFactor?: number;
+  offsetUnits?: number;
 }): StyledUiUnlitMaterialConfig => ({
   type: "UiUnlitMaterial",
-  offsetFactor,
-  offsetUnits,
   alphaCutoff,
   alphaClip,
+  sidedness,
   zWrite,
+  offsetFactor,
+  offsetUnits,
 });
 
 export const createUiTextUnlitMaterial = ({
@@ -211,6 +215,8 @@ export const createStyle = <
       ...(config.Sprite?.[key] ?? {
         type: "Sprite",
         url: "",
+        wrapModeU: "Clamp",
+        wrapModeV: "Clamp",
       }),
       variableName: `${spaceName}/${createId()}`,
       key,
@@ -221,11 +227,12 @@ export const createStyle = <
     (key): { key: keyof M; variableName: string } & StyledMaterial => ({
       ...(config.Material?.[key] ?? {
         type: "UiUnlitMaterial",
-        offsetFactor: 0,
-        offsetUnits: 0,
         alphaCutoff: 0,
         alphaClip: false,
+        sidedness: "Double",
         zWrite: "Auto",
+        offsetFactor: 0,
+        offsetUnits: 0,
       }),
       variableName: `${spaceName}/${createId()}`,
       key,
@@ -277,6 +284,7 @@ export const createStyle = <
                   name={variable.variableName}
                   offsetFactor={variable.offsetFactor}
                   offsetUnits={variable.offsetUnits}
+                  sidedness={variable.sidedness}
                   zWrite={variable.zWrite}
                 />
               );

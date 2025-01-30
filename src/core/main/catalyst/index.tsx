@@ -5,7 +5,7 @@ import { Status } from "./util/type";
 import { StyledImage, StyledMask } from "../../unit/package/StyledUix/main";
 import { Color, Material, Sprite } from "./util/style";
 import { StyledSpace } from "./util/style";
-import { Canvas } from "../../unit/package/PrimitiveUix/main";
+import { Canvas, RectTransform } from "../../unit/package/PrimitiveUix/main";
 
 export const Catalyst = () => {
   const [statuses, setStatuses] = useState<Status[]>([]);
@@ -31,6 +31,18 @@ export const Catalyst = () => {
           styledMaterial={Material.base}
           styledSprite={Sprite.kadomaru}
         />
+        <RectTransform
+          anchorMax={[0.5, 0.5]}
+          anchorMin={[0.5, 0.5]}
+          offsetMax={[32, 32]}
+          offsetMin={[-32, -32]}
+        >
+          <StyledImage
+            flipHorizontally
+            styledMaterial={Material.backLogo}
+            styledSprite={Sprite.backLogo}
+          />
+        </RectTransform>
         <StyledMask styledSprite={Sprite.kadomaru}>
           <GlobalTimeLine statuses={statuses} />
         </StyledMask>

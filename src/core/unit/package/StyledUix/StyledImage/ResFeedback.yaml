@@ -220,10 +220,10 @@ Children:
                   ID: ID:StyledImage:Components:2:NineSliceSizing:0
                   Data: TextureSize
                 FlipHorizontally:
-                  ID: "?"
+                  ID: ID:StyledImage:Components:2:FlipHorizontally:0
                   Data: false
                 FlipVertically:
-                  ID: "?"
+                  ID: ID:StyledImage:Components:2:FlipVertically:0
                   Data: false
                 InteractionTarget:
                   ID: "?"
@@ -585,6 +585,44 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledImage:Components:2:PreserveAspect:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.flipHorizontally
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledImage:Components:2:FlipHorizontally:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.flipVertically
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledImage:Components:2:FlipVertically:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false

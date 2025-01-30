@@ -11,11 +11,12 @@ const detail = {
   code: "StyledUnit/StyledDVUiUnlitMaterial",
   propsConfig: {
     name: UnitProp.String("Name"),
+    alphaCutoff: UnitProp.Float(0.1),
+    alphaClip: UnitProp.Boolean(true),
+    sidedness: UnitProp.EnumSidedness("Double"),
     zWrite: UnitProp.EnumZWrite("On"),
     offsetFactor: UnitProp.Float(1),
     offsetUnits: UnitProp.Float(100),
-    alphaCutoff: UnitProp.Float(0.1),
-    alphaClip: UnitProp.Boolean(true),
   },
   children: "multi",
 } satisfies DetailBase;

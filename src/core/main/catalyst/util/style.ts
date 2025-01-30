@@ -54,6 +54,9 @@ export const { StyledSpace, Color, Sprite, Material } = createStyle({
       borders: [0.33333, 0.33333, 0.33333, 0.33333],
       scale: 0.1,
     }),
+    backLogo: createSprite({
+      url: "https://docs.natsuneko.com/logo.png",
+    }),
   },
   Material: {
     base: createUiUnlitMaterial({
@@ -61,12 +64,21 @@ export const { StyledSpace, Color, Sprite, Material } = createStyle({
       alphaCutoff: 0.5,
       offsetFactor: 10,
       offsetUnits: 500,
+      sidedness: "Double",
     }),
     front: createUiUnlitMaterial({
       alphaClip: true,
       alphaCutoff: 0.5,
       offsetFactor: -10,
       offsetUnits: 0,
+      sidedness: "Front",
+    }),
+    backLogo: createUiUnlitMaterial({
+      alphaClip: true,
+      alphaCutoff: 0.5,
+      offsetFactor: -10,
+      offsetUnits: 0,
+      sidedness: "Back",
     }),
   },
 });

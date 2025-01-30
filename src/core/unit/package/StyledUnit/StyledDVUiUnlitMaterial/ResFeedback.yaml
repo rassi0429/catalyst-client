@@ -302,7 +302,7 @@ Children:
                   ID: "?"
                   Data: Alpha
                 Sidedness:
-                  ID: "?"
+                  ID: ID:StyledDVUiUnlitMaterial:Components:2:Sidedness:0
                   Data: Double
                 ZWrite:
                   ID: ID:StyledDVUiUnlitMaterial:Components:2:ZWrite:0
@@ -500,6 +500,63 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
+                  Data: Props.alphaCutoff
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVUiUnlitMaterial:Components:2:AlphaCutoff:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 6
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.alphaClip
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVUiUnlitMaterial:Components:2:AlphaClip:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.sidedness
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledDVUiUnlitMaterial:Components:2:Sidedness:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 8
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
                   Data: Props.zWrite
                 TargetField:
                   ID: "?"
@@ -507,7 +564,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 6
+            - Type: 5
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -526,7 +583,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 6
+            - Type: 5
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -542,44 +599,6 @@ Children:
                 TargetField:
                   ID: "?"
                   Data: ID:StyledDVUiUnlitMaterial:Components:2:OffsetUnits:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 6
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.alphaCutoff
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVUiUnlitMaterial:Components:2:AlphaCutoff:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 7
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.alphaClip
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledDVUiUnlitMaterial:Components:2:AlphaClip:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false

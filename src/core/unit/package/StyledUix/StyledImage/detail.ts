@@ -15,6 +15,8 @@ const detail = {
     defaultColor: UnitProp.Color([1, 1, 1, 1]),
     nineSliceSizing: UnitProp.EnumNineSliceSizing("TextureSize"),
     preserveAspect: UnitProp.Boolean(true),
+    flipHorizontally: UnitProp.Boolean(false),
+    flipVertically: UnitProp.Boolean(false),
   },
   children: "multi" as const,
 };
