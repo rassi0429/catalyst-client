@@ -60,7 +60,7 @@ export const { StyledSpace, Color, Sprite, Material, Font } = createStyle({
       scale: 0.1,
     }),
     logo: createSprite({
-      url: "https://catalyst.natsuneko.com/favicon-32x32.png",
+      url: "resdb:///dc2f6caf3df0b0180b99e578192fd91bbc7f7d4d08a29c5751aee6b0e363b3be.png",
       wrapModeU: "Clamp",
       wrapModeV: "Clamp",
     }),
