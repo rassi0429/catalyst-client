@@ -41,12 +41,6 @@ export const { StyledSpace, Color, Sprite, Material, Font } = createStyle({
       borders: [0, 0, 0, 0],
       scale: 1,
     }),
-    // logo: createSprite({
-    //   url: config.misskey.logo,
-    //   rect: [0, 0, 1, 1],
-    //   borders: [0, 0, 0, 0],
-    //   scale: 1,
-    // }),
     circle: createSprite({
       url: "resdb:///427a01c03424b86b4b8ffba936e4eb6cbf4be4d6773fa1f45ec004cfb526d016.png",
       rect: [0, 0, 1, 1],
@@ -64,6 +58,11 @@ export const { StyledSpace, Color, Sprite, Material, Font } = createStyle({
       rect: [1, 1, 1, 1],
       borders: [0.33333, 0.33333, 0.33333, 0.33333],
       scale: 0.1,
+    }),
+    logo: createSprite({
+      url: "https://catalyst.natsuneko.com/favicon-32x32.png",
+      wrapModeU: "Clamp",
+      wrapModeV: "Clamp",
     }),
     backLogo: createSprite({
       url: "https://docs.natsuneko.com/logo.png",
