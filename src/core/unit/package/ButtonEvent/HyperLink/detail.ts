@@ -8,16 +8,17 @@ import {
 } from "../../../../../lib/miragex/unit/common";
 
 const detail = {
-  code: "StyledUnit/StyledDVUiTextUnlitMaterial",
+  code: "ButtonEvent/HyperLink",
   propsConfig: {
-    name: UnitProp.String("Name"),
-    sidedness: UnitProp.EnumSidedness("Double"),
-    zWrite: UnitProp.EnumZWrite("Auto"),
-    offsetFactor: UnitProp.Float(0),
-    offsetUnits: UnitProp.Float(0),
+    urlEn: UnitProp.Uri(""),
+    urlJa: UnitProp.Uri(""),
+    urlKo: UnitProp.Uri(""),
+    reasonEn: UnitProp.String(""),
+    reasonJa: UnitProp.String(""),
+    reasonKo: UnitProp.String(""),
   },
   children: "multi",
-} satisfies DetailBase;
+} as const satisfies DetailBase;
 
 export type MainProps = getMainProps<typeof detail>;
 export type MirrorProps = getMirrorProps<typeof detail>;

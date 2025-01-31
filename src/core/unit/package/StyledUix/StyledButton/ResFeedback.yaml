@@ -5,7 +5,7 @@ Active:
   ID: "?"
   Data: true
 ID: "?"
-Persistent-ID: "?"
+persistent-ID: "?"
 Position:
   ID: "?"
   Data:
@@ -27,7 +27,7 @@ Scale:
     - 1
 Tag:
   ID: "?"
-  Data: null
+  Data: ""
 OrderOffset:
   ID: "?"
   Data: 0
@@ -46,7 +46,7 @@ Components:
           Data: true
         SpaceName:
           ID: "?"
-          Data: null
+          Data: ""
         OnlyDirectBinding:
           ID: "?"
           Data: false
@@ -58,7 +58,7 @@ Children:
       ID: "?"
       Data: true
     ID: "?"
-    Persistent-ID: "?"
+    persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -80,7 +80,7 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: null
+      Data: ""
     OrderOffset:
       ID: "?"
       Data: 0
@@ -115,7 +115,7 @@ Children:
       ID: "?"
       Data: true
     ID: ID:Ref:0
-    Persistent-ID: "?"
+    persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -137,7 +137,7 @@ Children:
         - 111111
     Tag:
       ID: "?"
-      Data: null
+      Data: ""
     OrderOffset:
       ID: "?"
       Data: 0
@@ -156,515 +156,11 @@ Children:
               Data: true
             SpaceName:
               ID: "?"
-              Data: null
+              Data: ""
             OnlyDirectBinding:
               ID: "?"
               Data: false
     Children:
-      - Name:
-          ID: "?"
-          Data: StyledButton
-        Active:
-          ID: "?"
-          Data: true
-        ID: ID:StyledButton:0
-        Persistent-ID: "?"
-        Position:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-        Rotation:
-          ID: "?"
-          Data:
-            - 0
-            - 0
-            - 0
-            - 111111
-        Scale:
-          ID: "?"
-          Data:
-            - 111111
-            - 111111
-            - 111111
-        Tag:
-          ID: "?"
-          Data: null
-        OrderOffset:
-          ID: "?"
-          Data: 0
-        Components:
-          ID: "?"
-          Data:
-            - Type: 2
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                Sprite:
-                  ID: ID:StyledButton:Components:2:Sprite:0
-                  Data: null
-                Material:
-                  ID: ID:StyledButton:Components:2:Material:0
-                  Data: null
-                PreserveAspect:
-                  ID: ID:StyledButton:Components:2:PreserveAspect:0
-                  Data: true
-                NineSliceSizing:
-                  ID: ID:StyledButton:Components:2:NineSliceSizing:0
-                  Data: TextureSize
-                FlipHorizontally:
-                  ID: "?"
-                  Data: false
-                FlipVertically:
-                  ID: "?"
-                  Data: false
-                InteractionTarget:
-                  ID: "?"
-                  Data: true
-                FillRect:
-                  ID: "?"
-                  Data:
-                    X: 0
-                    Y: 0
-                    Width: 333.3333333333333
-                    Height: 333.3333333333333
-                Tint:
-                  ID: ID:StyledButton:Components:2:Tint:0
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - Linear
-                __legacyZWrite-ID: "?"
-            - Type: 3
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                AnchorMin:
-                  ID: "?"
-                  Data:
-                    - 0
-                    - 0
-                AnchorMax:
-                  ID: "?"
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                OffsetMin:
-                  ID: "?"
-                  Data:
-                    - 0
-                    - 0
-                OffsetMax:
-                  ID: "?"
-                  Data:
-                    - 0
-                    - 0
-                Pivot:
-                  ID: "?"
-                  Data:
-                    - 166.66666666666666
-                    - 166.66666666666666
-            - Type: 4
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: ID:StyledButton:Components:4:Enabled:0
-                  Data: true
-                BaseColor:
-                  ID: ID:StyledButton:Components:4:BaseColor:0
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - sRGB
-                ColorDrivers:
-                  ID: "?"
-                  Data:
-                    - ID: "?"
-                      ColorDrive:
-                        ID: "?"
-                        Data: ID:StyledButton:Components:2:Tint:0
-                      TintColorMode:
-                        ID: ID:StyledButton:Components:4:ColorDrivers.0.TintColorMode.ID:0
-                        Data: Explicit
-                      NormalColor:
-                        ID: ID:StyledButton:Components:4:ColorDrivers.0.NormalColor.ID:0
-                        Data:
-                          - 333.3333333333333
-                          - 333.3333333333333
-                          - 333.3333333333333
-                          - 333.3333333333333
-                          - sRGBAlpha
-                      HighlightColor:
-                        ID: ID:StyledButton:Components:4:ColorDrivers.0.HighlightColor.ID:0
-                        Data:
-                          - 250
-                          - 250
-                          - 250
-                          - 333.3333333333333
-                          - sRGBAlpha
-                      PressColor:
-                        ID: ID:StyledButton:Components:4:ColorDrivers.0.PressColor.ID:0
-                        Data:
-                          - 166.66666666666666
-                          - 166.66666666666666
-                          - 166.66666666666666
-                          - 333.3333333333333
-                          - sRGBAlpha
-                      DisabledColor:
-                        ID: ID:StyledButton:Components:4:ColorDrivers.0.DisabledColor.ID:0
-                        Data:
-                          - 216.66666666666666
-                          - 216.66666666666666
-                          - 216.66666666666666
-                          - 333.3333333333333
-                          - sRGBAlpha
-                IsPressed:
-                  ID: "?"
-                  Data: false
-                IsHovering:
-                  ID: "?"
-                  Data: false
-                HoverVibrate:
-                  ID: "?"
-                  Data: Short
-                PressVibrate:
-                  ID: "?"
-                  Data: Medium
-                ClearFocusOnPress:
-                  ID: "?"
-                  Data: true
-                PassThroughHorizontalMovement:
-                  ID: "?"
-                  Data: true
-                PassThroughVerticalMovement:
-                  ID: "?"
-                  Data: true
-                RequireLockInToPress:
-                  ID: ID:StyledButton:Components:4:RequireLockInToPress:0
-                  Data: false
-                RequireInitialPress:
-                  ID: "?"
-                  Data: true
-                PressPoint:
-                  ID: "?"
-                  Data:
-                    - 0
-                    - 0
-                SendSlotEvents:
-                  ID: "?"
-                  Data: true
-                Pressed:
-                  ID: "?"
-                  Data:
-                    Target: null
-                Pressing:
-                  ID: "?"
-                  Data:
-                    Target: null
-                Released:
-                  ID: "?"
-                  Data:
-                    Target: null
-                HoverEnter:
-                  ID: "?"
-                  Data:
-                    Target: null
-                HoverStay:
-                  ID: "?"
-                  Data:
-                    Target: null
-                HoverLeave:
-                  ID: "?"
-                  Data:
-                    Target: null
-                __legacy_NormalColor-ID: "?"
-                __legacy_HighlightColor-ID: "?"
-                __legacy_PressColor-ID: "?"
-                __legacy_DisabledColor-ID: "?"
-                __legacy_TintColorMode-ID: "?"
-                __legacy_ColorDrive-ID: "?"
-            - Type: 5
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                Target:
-                  ID: ID:StyledButton:Components:5:Target:0
-                  Data: "?"
-                ExcludeDisabled:
-                  ID: "?"
-                  Data: false
-                PressedData:
-                  ID: "?"
-                  Data: {}
-                PressingData:
-                  ID: "?"
-                  Data: {}
-                ReleasedData:
-                  ID: "?"
-                  Data: {}
-                HoverEnterData:
-                  ID: "?"
-                  Data: {}
-                HoverStayData:
-                  ID: "?"
-                  Data: {}
-                HoverLeaveData:
-                  ID: "?"
-                  Data: {}
-            - Type: 6
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: AppRoot/Static.System.Func.EmitInteractionEvent
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:5:Target:0
-                DefaultTarget:
-                  ID: "?"
-                  Data: null
-            - Type: 7
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:7:VariableName:0
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:4:BaseColor:0
-                DefaultValue:
-                  ID: ID:StyledButton:Components:7:DefaultValue:0
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - sRGB
-            - Type: 8
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:8:VariableName:0
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:2:Sprite:0
-                DefaultTarget:
-                  ID: "?"
-                  Data: null
-            - Type: 9
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:9:VariableName:0
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:2:Material:0
-                DefaultTarget:
-                  ID: "?"
-                  Data: null
-            - Type: 7
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:7:VariableName:1
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:4:ColorDrivers.0.NormalColor.ID:0
-                DefaultValue:
-                  ID: "?"
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - sRGBAlpha
-            - Type: 7
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:7:VariableName:2
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:4:ColorDrivers.0.HighlightColor.ID:0
-                DefaultValue:
-                  ID: "?"
-                  Data:
-                    - 250
-                    - 250
-                    - 250
-                    - 333.3333333333333
-                    - sRGBAlpha
-            - Type: 7
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:7:VariableName:3
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:4:ColorDrivers.0.PressColor.ID:0
-                DefaultValue:
-                  ID: "?"
-                  Data:
-                    - 166.66666666666666
-                    - 166.66666666666666
-                    - 166.66666666666666
-                    - 333.3333333333333
-                    - sRGBAlpha
-            - Type: 7
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: ID:StyledButton:Components:7:VariableName:4
-                  Data: ""
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:4:ColorDrivers.0.DisabledColor.ID:0
-                DefaultValue:
-                  ID: "?"
-                  Data:
-                    - 216.66666666666666
-                    - 216.66666666666666
-                    - 216.66666666666666
-                    - 333.3333333333333
-                    - sRGBAlpha
-            - Type: 0
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                SpaceName:
-                  ID: "?"
-                  Data: ButtonEventRelay
-                OnlyDirectBinding:
-                  ID: "?"
-                  Data: true
-            - Type: 6
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: ButtonEventRelay/Target
-                Target:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:10:Target:0
-                DefaultTarget:
-                  ID: "?"
-                  Data: null
-            - Type: 10
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                Target:
-                  ID: ID:StyledButton:Components:10:Target:0
-                  Data: null
-        Children: []
-        ParentReference: ""
       - Name:
           ID: "?"
           Data: DV/Static
@@ -672,7 +168,7 @@ Children:
           ID: "?"
           Data: true
         ID: "?"
-        Persistent-ID: "?"
+        persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -694,7 +190,7 @@ Children:
             - 111111
         Tag:
           ID: "?"
-          Data: null
+          Data: ""
         OrderOffset:
           ID: "?"
           Data: 0
@@ -767,7 +263,311 @@ Children:
           ID: "?"
           Data: true
         ID: "?"
-        Persistent-ID: "?"
+        persistent-ID: "?"
+        Position:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+        Rotation:
+          ID: "?"
+          Data:
+            - 0
+            - 0
+            - 0
+            - 111111
+        Scale:
+          ID: "?"
+          Data:
+            - 111111
+            - 111111
+            - 111111
+        Tag:
+          ID: "?"
+          Data: ""
+        OrderOffset:
+          ID: "?"
+          Data: 0
+        Components:
+          ID: "?"
+          Data:
+            - Type: 2
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.enabled
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:9:Enabled:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledSprite
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:13:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:12:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledMaterial
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:14:VariableName:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 4
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.defaultColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:12:DefaultValue:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 5
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.tintColorMode
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:9:ColorDrivers.0.TintColorMode.ID:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledNormalColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:12:VariableName:1
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledHighlightColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:12:VariableName:2
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledPressColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:12:VariableName:3
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.styledDisableColor
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:12:VariableName:4
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.onClick
+                TargetField:
+                  ID: "?"
+                  Data: "?"
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 2
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.requireLockInToPress
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:9:RequireLockInToPress:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 6
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.nineSliceSizing
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:7:NineSliceSizing:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 2
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.preserveAspect
+                TargetField:
+                  ID: "?"
+                  Data: ID:StyledButton:Components:7:PreserveAspect:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+        Children: []
+        ParentReference: ""
+      - Name:
+          ID: "?"
+          Data: StyledButton
+        Active:
+          ID: "?"
+          Data: true
+        ID: ID:StyledButton:0
+        persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -796,6 +596,247 @@ Children:
         Components:
           ID: "?"
           Data:
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Sprite:
+                  ID: ID:StyledButton:Components:7:Sprite:0
+                  Data: null
+                Material:
+                  ID: ID:StyledButton:Components:7:Material:0
+                  Data: null
+                PreserveAspect:
+                  ID: ID:StyledButton:Components:7:PreserveAspect:0
+                  Data: true
+                NineSliceSizing:
+                  ID: ID:StyledButton:Components:7:NineSliceSizing:0
+                  Data: TextureSize
+                FlipHorizontally:
+                  ID: "?"
+                  Data: false
+                FlipVertically:
+                  ID: "?"
+                  Data: false
+                InteractionTarget:
+                  ID: "?"
+                  Data: true
+                FillRect:
+                  ID: "?"
+                  Data:
+                    X: 0
+                    Y: 0
+                    Width: 333.3333333333333
+                    Height: 333.3333333333333
+                Tint:
+                  ID: ID:StyledButton:Components:7:Tint:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGBAlpha
+                __legacyZWrite-ID: "?"
+            - Type: 8
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                AnchorMin:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                AnchorMax:
+                  ID: "?"
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                OffsetMin:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                OffsetMax:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                Pivot:
+                  ID: "?"
+                  Data:
+                    - 166.66666666666666
+                    - 166.66666666666666
+            - Type: 9
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: ID:StyledButton:Components:9:Enabled:0
+                  Data: true
+                BaseColor:
+                  ID: ID:StyledButton:Components:9:BaseColor:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGBAlpha
+                ColorDrivers:
+                  ID: "?"
+                  Data:
+                    - ID: "?"
+                      ColorDrive:
+                        ID: "?"
+                        Data: ID:StyledButton:Components:7:Tint:0
+                      TintColorMode:
+                        ID: ID:StyledButton:Components:9:ColorDrivers.0.TintColorMode.ID:0
+                        Data: Explicit
+                      NormalColor:
+                        ID: ID:StyledButton:Components:9:ColorDrivers.0.NormalColor.ID:0
+                        Data:
+                          - 333.3333333333333
+                          - 333.3333333333333
+                          - 333.3333333333333
+                          - 333.3333333333333
+                          - sRGBAlpha
+                      HighlightColor:
+                        ID: ID:StyledButton:Components:9:ColorDrivers.0.HighlightColor.ID:0
+                        Data:
+                          - 250
+                          - 250
+                          - 250
+                          - 333.3333333333333
+                          - sRGBAlpha
+                      PressColor:
+                        ID: ID:StyledButton:Components:9:ColorDrivers.0.PressColor.ID:0
+                        Data:
+                          - 166.66666666666666
+                          - 166.66666666666666
+                          - 166.66666666666666
+                          - 333.3333333333333
+                          - sRGBAlpha
+                      DisabledColor:
+                        ID: ID:StyledButton:Components:9:ColorDrivers.0.DisabledColor.ID:0
+                        Data:
+                          - 216.66666666666666
+                          - 216.66666666666666
+                          - 216.66666666666666
+                          - 333.3333333333333
+                          - sRGBAlpha
+                IsPressed:
+                  ID: "?"
+                  Data: false
+                IsHovering:
+                  ID: ID:StyledButton:Components:9:IsHovering:0
+                  Data: false
+                HoverVibrate:
+                  ID: "?"
+                  Data: Short
+                PressVibrate:
+                  ID: "?"
+                  Data: Medium
+                ClearFocusOnPress:
+                  ID: "?"
+                  Data: true
+                PassThroughHorizontalMovement:
+                  ID: "?"
+                  Data: true
+                PassThroughVerticalMovement:
+                  ID: "?"
+                  Data: true
+                RequireLockInToPress:
+                  ID: ID:StyledButton:Components:9:RequireLockInToPress:0
+                  Data: false
+                RequireInitialPress:
+                  ID: "?"
+                  Data: true
+                PressPoint:
+                  ID: "?"
+                  Data:
+                    - 0
+                    - 0
+                SendSlotEvents:
+                  ID: "?"
+                  Data: true
+                Pressed:
+                  ID: "?"
+                  Data:
+                    Target: null
+                Pressing:
+                  ID: "?"
+                  Data:
+                    Target: null
+                Released:
+                  ID: "?"
+                  Data:
+                    Target: null
+                HoverEnter:
+                  ID: "?"
+                  Data:
+                    Target: null
+                HoverStay:
+                  ID: "?"
+                  Data:
+                    Target: null
+                HoverLeave:
+                  ID: "?"
+                  Data:
+                    Target: null
+                __legacy_NormalColor-ID: "?"
+                __legacy_HighlightColor-ID: "?"
+                __legacy_PressColor-ID: "?"
+                __legacy_DisabledColor-ID: "?"
+                __legacy_TintColorMode-ID: "?"
+                __legacy_ColorDrive-ID: "?"
+            - Type: 10
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Target:
+                  ID: ID:StyledButton:Components:10:Target:0
+                  Data: "?"
+                ExcludeDisabled:
+                  ID: "?"
+                  Data: false
+                PressedData:
+                  ID: "?"
+                  Data: {}
+                PressingData:
+                  ID: "?"
+                  Data: {}
+                ReleasedData:
+                  ID: "?"
+                  Data: {}
+                HoverEnterData:
+                  ID: "?"
+                  Data: {}
+                HoverStayData:
+                  ID: "?"
+                  Data: {}
+                HoverLeaveData:
+                  ID: "?"
+                  Data: {}
             - Type: 11
               Data:
                 ID: "?"
@@ -808,13 +849,13 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.enabled
-                TargetField:
+                  Data: AppRoot/Static.System.Func.EmitInteractionEvent
+                Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:4:Enabled:0
-                OverrideOnLink:
+                  Data: ID:StyledButton:Components:10:Target:0
+                DefaultTarget:
                   ID: "?"
-                  Data: false
+                  Data: null
             - Type: 12
               Data:
                 ID: "?"
@@ -826,52 +867,19 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:12:VariableName:0
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.styledSprite
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:8:VariableName:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 12
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.styledColor
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:7:VariableName:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 12
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.styledMaterial
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:9:VariableName:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
+                  Data: ID:StyledButton:Components:9:BaseColor:0
+                DefaultValue:
+                  ID: ID:StyledButton:Components:12:DefaultValue:0
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGBAlpha
             - Type: 13
               Data:
                 ID: "?"
@@ -883,14 +891,14 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:13:VariableName:0
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.defaultColor
-                TargetField:
+                  Data: ID:StyledButton:Components:7:Sprite:0
+                DefaultTarget:
                   ID: "?"
-                  Data: ID:StyledButton:Components:7:DefaultValue:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
+                  Data: null
             - Type: 14
               Data:
                 ID: "?"
@@ -902,14 +910,14 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:14:VariableName:0
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.tintColorMode
-                TargetField:
+                  Data: ID:StyledButton:Components:7:Material:0
+                DefaultTarget:
                   ID: "?"
-                  Data: ID:StyledButton:Components:4:ColorDrivers.0.TintColorMode.ID:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
+                  Data: null
             - Type: 12
               Data:
                 ID: "?"
@@ -921,14 +929,19 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:12:VariableName:1
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.styledNormalColor
-                TargetField:
+                  Data: ID:StyledButton:Components:9:ColorDrivers.0.NormalColor.ID:0
+                DefaultValue:
                   ID: "?"
-                  Data: ID:StyledButton:Components:7:VariableName:1
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
+                  Data:
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - 333.3333333333333
+                    - sRGBAlpha
             - Type: 12
               Data:
                 ID: "?"
@@ -940,14 +953,19 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:12:VariableName:2
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.styledHighlightColor
-                TargetField:
+                  Data: ID:StyledButton:Components:9:ColorDrivers.0.HighlightColor.ID:0
+                DefaultValue:
                   ID: "?"
-                  Data: ID:StyledButton:Components:7:VariableName:2
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
+                  Data:
+                    - 250
+                    - 250
+                    - 250
+                    - 333.3333333333333
+                    - sRGBAlpha
             - Type: 12
               Data:
                 ID: "?"
@@ -959,14 +977,19 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:12:VariableName:3
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.styledPressColor
-                TargetField:
+                  Data: ID:StyledButton:Components:9:ColorDrivers.0.PressColor.ID:0
+                DefaultValue:
                   ID: "?"
-                  Data: ID:StyledButton:Components:7:VariableName:3
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
+                  Data:
+                    - 166.66666666666666
+                    - 166.66666666666666
+                    - 166.66666666666666
+                    - 333.3333333333333
+                    - sRGBAlpha
             - Type: 12
               Data:
                 ID: "?"
@@ -978,15 +1001,20 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
+                  ID: ID:StyledButton:Components:12:VariableName:4
+                  Data: ""
+                Target:
                   ID: "?"
-                  Data: Props.styledDisableColor
-                TargetField:
+                  Data: ID:StyledButton:Components:9:ColorDrivers.0.DisabledColor.ID:0
+                DefaultValue:
                   ID: "?"
-                  Data: ID:StyledButton:Components:7:VariableName:4
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 12
+                  Data:
+                    - 216.66666666666666
+                    - 216.66666666666666
+                    - 216.66666666666666
+                    - 333.3333333333333
+                    - sRGBAlpha
+            - Type: 2
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -998,67 +1026,10 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.onClick
+                  Data: null
                 TargetField:
                   ID: "?"
-                  Data: "?"
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 11
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.requireLockInToPress
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:4:RequireLockInToPress:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 15
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.nineSliceSizing
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:2:NineSliceSizing:0
-                OverrideOnLink:
-                  ID: "?"
-                  Data: false
-            - Type: 11
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                VariableName:
-                  ID: "?"
-                  Data: Props.preserveAspect
-                TargetField:
-                  ID: "?"
-                  Data: ID:StyledButton:Components:2:PreserveAspect:0
+                  Data: ID:StyledButton:Components:9:IsHovering:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false

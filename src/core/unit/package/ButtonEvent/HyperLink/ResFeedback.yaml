@@ -1,11 +1,11 @@
 Name:
   ID: "?"
-  Data: StyledUnit/StyledDVUiTextUnlitMaterial
+  Data: ButtonEvent/HyperLink
 Active:
   ID: "?"
   Data: true
 ID: "?"
-Persistent-ID: "?"
+persistent-ID: "?"
 Position:
   ID: "?"
   Data:
@@ -58,7 +58,7 @@ Children:
       ID: "?"
       Data: true
     ID: "?"
-    Persistent-ID: "?"
+    persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -115,7 +115,7 @@ Children:
       ID: "?"
       Data: true
     ID: ID:Ref:0
-    Persistent-ID: "?"
+    persistent-ID: "?"
     Position:
       ID: "?"
       Data:
@@ -163,12 +163,12 @@ Children:
     Children:
       - Name:
           ID: "?"
-          Data: StyledUiTextUnlitMaterial
+          Data: HyperLink
         Active:
           ID: "?"
           Data: true
-        ID: ID:StyledUiTextUnlitMaterial:0
-        Persistent-ID: "?"
+        ID: ID:HyperLink:0
+        persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -197,7 +197,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: 2
+            - Type: 1
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -208,17 +208,17 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:2:VariableName:0
-                  Data: Name
-                Reference:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:3:0
+                  Data: ButtonEventRelay/Target
+                Reference:
+                  ID: ID:HyperLink:Components:1:Reference:0
+                  Data: ID:HyperLink:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 3
+            - Type: 2
               Data:
-                ID: ID:StyledUiTextUnlitMaterial:Components:3:0
+                ID: "?"
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -226,116 +226,228 @@ Children:
                 Enabled:
                   ID: "?"
                   Data: true
-                HighPriorityIntegration:
+                Target:
+                  ID: "?"
+                  Data: ID:HyperLink:Components:4:URL:0
+                Index:
+                  ID: ID:HyperLink:Components:2:Index:0
+                  Data: 0
+                Values:
+                  ID: "?"
+                  Data:
+                    - ID: ID:HyperLink:Components:2:Values.0.ID:0
+                      Data: null
+                    - ID: ID:HyperLink:Components:2:Values.1.ID:0
+                      Data: null
+                    - ID: ID:HyperLink:Components:2:Values.2.ID:0
+                      Data: null
+                AllowWriteBack:
                   ID: "?"
                   Data: false
-                FontAtlas:
+            - Type: 3
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
-                  Data: null
-                TintColor:
-                  ID: "?"
-                  Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - sRGBAlpha
-                OutlineColor:
-                  ID: "?"
-                  Data:
-                    - 0
-                    - 0
-                    - 0
-                    - 333.3333333333333
-                    - sRGBAlpha
-                BackgroundColor:
-                  ID: "?"
-                  Data:
-                    - 0
-                    - 0
-                    - 0
-                    - 333.3333333333333
-                    - sRGBAlpha
-                AutoBackgroundColor:
+                  Data: 0
+                Enabled:
                   ID: "?"
                   Data: true
-                GlyphRenderMethod:
-                  ID: "?"
-                  Data: MSDF
-                PixelRange:
-                  ID: "?"
-                  Data: 1333.3333333333333
-                FaceDilate:
-                  ID: "?"
-                  Data: 0
-                OutlineThickness:
+                Target:
+                  ID: ID:HyperLink:Components:3:Target:0
+                  Data: null
+            - Type: 4
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
                   Data: 0
-                FaceSoftness:
+                Enabled:
+                  ID: "?"
+                  Data: true
+                URL:
+                  ID: ID:HyperLink:Components:4:URL:0
+                  Data: null
+                OpenOnce:
+                  ID: "?"
+                  Data: true
+                Reason:
+                  ID: ID:HyperLink:Components:4:Reason:0
+                  Data: ""
+            - Type: 5
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
                   Data: 0
-                BlendMode:
+                Enabled:
                   ID: "?"
-                  Data: Alpha
-                Sidedness:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:3:Sidedness:0
-                  Data: Double
-                ZWrite:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:3:ZWrite:0
-                  Data: Auto
-                ZTest:
+                  Data: true
+                Target:
                   ID: "?"
-                  Data: LessOrEqual
-                OffsetFactor:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:3:OffsetFactor:0
+                  Data: ID:HyperLink:Components:4:Reason:0
+                Index:
+                  ID: ID:HyperLink:Components:5:Index:0
                   Data: 0
-                OffsetUnits:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:3:OffsetUnits:0
-                  Data: 0
-                RenderQueue:
-                  ID: "?"
-                  Data: -333.3333333333333
-                Overlay:
-                  ID: "?"
-                  Data: false
-                OverlayTint:
+                Values:
                   ID: "?"
                   Data:
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 333.3333333333333
-                    - 166.66666666666666
-                    - sRGBAlpha
-                Rect:
-                  ID: "?"
-                  Data:
-                    X: 0
-                    Y: 0
-                    Width: 0
-                    Height: 0
-                RectClip:
+                    - ID: ID:HyperLink:Components:5:Values.0.ID:0
+                      Data: ""
+                    - ID: ID:HyperLink:Components:5:Values.1.ID:0
+                      Data: ""
+                    - ID: ID:HyperLink:Components:5:Values.2.ID:0
+                      Data: ""
+                AllowWriteBack:
                   ID: "?"
                   Data: false
-                ColorMask:
-                  ID: "?"
-                  Data: RGBA
-                StencilComparison:
-                  ID: "?"
-                  Data: Always
-                StencilOperation:
-                  ID: "?"
-                  Data: Keep
-                StencilID:
+            - Type: 6
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
                   ID: "?"
                   Data: 0
-                StencilWriteMask:
+                Enabled:
                   ID: "?"
-                  Data: 85000
-                StencilReadMask:
+                  Data: true
+                VariableName:
                   ID: "?"
-                  Data: 85000
-                _shader-ID: "?"
-        Children: []
+                  Data: Locale/Local
+                Target:
+                  ID: "?"
+                  Data: ID:HyperLink:Components:2:Index:0
+                DefaultValue:
+                  ID: "?"
+                  Data: 0
+            - Type: 6
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Locale/Local
+                Target:
+                  ID: "?"
+                  Data: ID:HyperLink:Components:5:Index:0
+                DefaultValue:
+                  ID: "?"
+                  Data: 0
+            - Type: 7
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Source:
+                  ID: "?"
+                  Data: ID:HyperLink:Components:8:Reference:0
+                Target:
+                  ID: "?"
+                  Data: ID:HyperLink:Components:1:Reference:0
+                WriteBack:
+                  ID: "?"
+                  Data: false
+            - Type: 8
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                Reference:
+                  ID: ID:HyperLink:Components:8:Reference:0
+                  Data: ID:HyperLink:0
+        Children:
+          - Name:
+              ID: "?"
+              Data: EventRelayTarget
+            Active:
+              ID: "?"
+              Data: true
+            ID: ID:EventRelayTarget:0
+            persistent-ID: "?"
+            Position:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+            Rotation:
+              ID: "?"
+              Data:
+                - 0
+                - 0
+                - 0
+                - 111111
+            Scale:
+              ID: "?"
+              Data:
+                - 111111
+                - 111111
+                - 111111
+            Tag:
+              ID: "?"
+              Data: ""
+            OrderOffset:
+              ID: "?"
+              Data: 0
+            Components:
+              ID: "?"
+              Data:
+                - Type: 0
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    SpaceName:
+                      ID: "?"
+                      Data: ButtonEventRelay
+                    OnlyDirectBinding:
+                      ID: "?"
+                      Data: true
+                - Type: 9
+                  Data:
+                    ID: "?"
+                    persistent-ID: "?"
+                    UpdateOrder:
+                      ID: "?"
+                      Data: 0
+                    Enabled:
+                      ID: "?"
+                      Data: true
+                    VariableName:
+                      ID: "?"
+                      Data: ButtonEventRelay/Target
+                    Target:
+                      ID: "?"
+                      Data: ID:HyperLink:Components:3:Target:0
+                    DefaultTarget:
+                      ID: "?"
+                      Data: null
+            Children: []
+            ParentReference: ""
         ParentReference: ""
       - Name:
           ID: "?"
@@ -344,7 +456,7 @@ Children:
           ID: "?"
           Data: true
         ID: "?"
-        Persistent-ID: "?"
+        persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -407,7 +519,7 @@ Children:
                   Data: Static.Main
                 Reference:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:0
+                  Data: ID:HyperLink:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -426,7 +538,7 @@ Children:
                   Data: Static.ChildrenParent
                 Reference:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:0
+                  Data: ID:EventRelayTarget:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -439,7 +551,7 @@ Children:
           ID: "?"
           Data: true
         ID: "?"
-        Persistent-ID: "?"
+        persistent-ID: "?"
         Position:
           ID: "?"
           Data:
@@ -468,7 +580,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: 4
+            - Type: 10
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -480,14 +592,14 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.name
+                  Data: Props.urlEn
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:2:VariableName:0
+                  Data: ID:HyperLink:Components:2:Values.0.ID:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 5
+            - Type: 10
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -499,14 +611,14 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.sidedness
+                  Data: Props.urlJa
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:3:Sidedness:0
+                  Data: ID:HyperLink:Components:2:Values.1.ID:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 6
+            - Type: 10
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -518,14 +630,14 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.zWrite
+                  Data: Props.urlKo
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:3:ZWrite:0
+                  Data: ID:HyperLink:Components:2:Values.2.ID:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 7
+            - Type: 11
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -537,14 +649,14 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.offsetFactor
+                  Data: Props.reasonEn
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:3:OffsetFactor:0
+                  Data: ID:HyperLink:Components:5:Values.0.ID:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: 7
+            - Type: 11
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -556,10 +668,29 @@ Children:
                   Data: true
                 VariableName:
                   ID: "?"
-                  Data: Props.offsetUnits
+                  Data: Props.reasonJa
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:3:OffsetUnits:0
+                  Data: ID:HyperLink:Components:5:Values.1.ID:0
+                OverrideOnLink:
+                  ID: "?"
+                  Data: false
+            - Type: 11
+              Data:
+                ID: "?"
+                persistent-ID: "?"
+                UpdateOrder:
+                  ID: "?"
+                  Data: 0
+                Enabled:
+                  ID: "?"
+                  Data: true
+                VariableName:
+                  ID: "?"
+                  Data: Props.reasonKo
+                TargetField:
+                  ID: "?"
+                  Data: ID:HyperLink:Components:5:Values.2.ID:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false

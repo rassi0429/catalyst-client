@@ -3,6 +3,7 @@ import {
   createFont,
   createSprite,
   createStyle,
+  createUiTextUnlitMaterial,
   createUiUnlitMaterial,
 } from "../../../lib/styledUnit";
 
@@ -21,6 +22,8 @@ export const { StyledSpace, Color, Sprite, Material, Font } = createStyle({
     background: createColor([0.1, 0.1, 0.1, 1]),
     white: createColor([0.92, 0.92, 0.92, 1]),
     black: createColor([0, 0, 0, 1]),
+    transparent: createColor([0, 0, 0, 0]),
+    gray: createColor([0.25, 0.25, 0.25, 1]),
   },
   Sprite: {
     gradient: createSprite({
@@ -91,6 +94,9 @@ export const { StyledSpace, Color, Sprite, Material, Font } = createStyle({
       offsetFactor: -10,
       offsetUnits: 0,
       sidedness: "Back",
+    }),
+    text: createUiTextUnlitMaterial({
+      sidedness: "Front",
     }),
   },
   Font: {

@@ -39,9 +39,10 @@ type StyledUiUnlitMaterialConfig = {
 
 type StyledUiTextUnlitMaterialConfig = {
   type: "UiTextUnlitMaterial";
+  sidedness?: "Auto" | "Front" | "Back" | "Double";
+  zWrite?: "Auto" | "On" | "Off";
   offsetFactor?: number;
   offsetUnits?: number;
-  zWrite?: "Auto" | "On" | "Off";
 };
 
 type StyledMaterial =
@@ -125,18 +126,21 @@ export const createUiUnlitMaterial = ({
 });
 
 export const createUiTextUnlitMaterial = ({
+  sidedness,
+  zWrite,
   offsetFactor,
   offsetUnits,
-  zWrite,
 }: {
+  sidedness?: "Auto" | "Front" | "Back" | "Double";
+  zWrite?: "Auto" | "On" | "Off";
   offsetFactor?: number;
   offsetUnits?: number;
-  zWrite?: "Auto" | "On" | "Off";
 }): StyledUiTextUnlitMaterialConfig => ({
   type: "UiTextUnlitMaterial",
+  sidedness,
+  zWrite,
   offsetFactor,
   offsetUnits,
-  zWrite,
 });
 
 export const createFont = ({
@@ -295,6 +299,7 @@ export const createStyle = <
                   name={variable.variableName}
                   offsetFactor={variable.offsetFactor}
                   offsetUnits={variable.offsetUnits}
+                  sidedness={variable.sidedness}
                   zWrite={variable.zWrite}
                 />
               );
