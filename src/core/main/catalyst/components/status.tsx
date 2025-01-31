@@ -15,7 +15,7 @@ import {
   StyledScrollArea,
   StyledText,
 } from "../../../unit/package/StyledUix/main";
-import { Color, Material, Sprite } from "../util/style";
+import { Color, Font, Material, Sprite } from "../util/style";
 import { Reaction, Status } from "../util/type";
 
 export const StatusView = ({ status }: { status: Status }) => {
@@ -71,6 +71,7 @@ export const StatusView = ({ status }: { status: Status }) => {
             horizontalAutoSize
             size={35}
             styledColor={Color.white}
+            styledFont={Font.main}
             verticalAlign="Middle"
             verticalAutoSize
           />
@@ -101,6 +102,7 @@ export const StatusView = ({ status }: { status: Status }) => {
             content={status.body}
             size={35}
             styledColor={Color.white}
+            styledFont={Font.main}
           />
           {/* Reaction */}
           <GridLayout cellSize={[80, 40]} spacing={[14, 10]}>
@@ -115,6 +117,7 @@ export const StatusView = ({ status }: { status: Status }) => {
                     horizontalAlign="Center"
                     size={35}
                     styledColor={Color.white}
+                    styledFont={Font.main}
                     verticalAlign="Middle"
                   />
                 </LayoutElement>

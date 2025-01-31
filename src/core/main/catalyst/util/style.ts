@@ -1,11 +1,22 @@
 import {
   createColor,
+  createFont,
   createSprite,
   createStyle,
   createUiUnlitMaterial,
 } from "../../../lib/styledUnit";
 
-export const { StyledSpace, Color, Sprite, Material } = createStyle({
+const standardFonts = [
+  "resdb:///dae40ca7b35fe7501bda2e4140a6860b1db47330be5d3c8ab6971fd83a70e9a5.ttf",
+  "resdb:///8c1dc004996029f804283dd398ca2a05d4d33ebcba5c0d25ea13fd2026572279.ttf",
+  "resdb:///f67f40c65f929f029827ab37cfdc4897dfd9ae3c28d9e98ba46e0d52e39eb97e.ttf",
+  "resdb:///e1b12670fd0fd466a643f19a73ab48343cb7fe4702afa59183e7be8b47a90912.ttf",
+  "resdb:///b57ed895ae9d09ba7b4b19c343a75cf39aad57156c3450e339d9d11556d7edc1.ttf",
+  "resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d.otf",
+  "resdb:///9aee503e8c9126e238639973a7eb7830ae02b4aed2a8f453b0f86300c2b5a9af.ttf",
+] as const;
+
+export const { StyledSpace, Color, Sprite, Material, Font } = createStyle({
   Color: {
     background: createColor([0.1, 0.1, 0.1, 1]),
     white: createColor([0.92, 0.92, 0.92, 1]),
@@ -56,6 +67,8 @@ export const { StyledSpace, Color, Sprite, Material } = createStyle({
     }),
     backLogo: createSprite({
       url: "https://docs.natsuneko.com/logo.png",
+      wrapModeU: "Clamp",
+      wrapModeV: "Clamp",
     }),
   },
   Material: {
@@ -79,6 +92,14 @@ export const { StyledSpace, Color, Sprite, Material } = createStyle({
       offsetFactor: -10,
       offsetUnits: 0,
       sidedness: "Back",
+    }),
+  },
+  Font: {
+    main: createFont({
+      urls: [
+        "resdb:///529360eec9dfd688614993dbd7515bc61f7651ebae6c53dd005f6247f98b30c5",
+        ...standardFonts,
+      ],
     }),
   },
 });
